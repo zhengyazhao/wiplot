@@ -1,69 +1,51 @@
-<div style="height:780px;width:1800px;margin-left:30px">
-  <div style="width:100%;height:50px;">
-      <div>
-        <h1>IV Prism</h1>
-      </div>
-      <div style="width:500px; float:left">
-          <el-date-picker [(model)]="cTime"  [format]="'yyyy年MM月dd日'">
-          </el-date-picker>
-      </div>
-      <div style="width:650px;float:right; ">
-          <el-button type="primary">Show 50 rows</el-button>
-          <el-button type="primary">Copy</el-button>
-          <el-button (click)="onExport()" type="primary">Excel</el-button>
-          <el-button type="primary">CSV</el-button>
-          <el-button type="primary">Print</el-button>
-          <el-button (click)="onSearch()" type="primary">Reset</el-button>
-      </div>
-  </div>
-  <div style=" width:1850px" [el-loading]="loadStatus" [text]="'Loading'">
-      <el-table  [model]="tableData" [stripe]="true" [border]="true">
-          <el-table-column model-key="TestDate" label="TestDate">
-          </el-table-column>
-          <el-table-column model-key="Wafer" label="Wafer">
-          </el-table-column>
-          <el-table-column model-key="Step" label="Step">
-          </el-table-column>
-          <el-table-column model-key="Cell" label="Cell">
-          </el-table-column>
-          <el-table-column model-key="Owner" label="Owner">
-          </el-table-column>
-          <el-table-column model-key="Purpose" label="Purpose">
-          </el-table-column>
-          <el-table-column model-key="Flow" label="Flow">
-          </el-table-column>
-          <el-table-column model-key="Bin" label="Bin">
-          </el-table-column>
-          <el-table-column model-key="Eff_DATIME" label="Eff_DATIME">
-          </el-table-column>
-          <el-table-column model-key="Jsc_Active" label="Jsc_Active">
-          </el-table-column>
-          <el-table-column model-key="Rs" label="Rs">
-          </el-table-column>
-          <el-table-column model-key="Vp" label="Vp">
-          </el-table-column>
-          <el-table-column model-key="Np" label="Np">
-          </el-table-column>
-          <el-table-column model-key="G_Rev" label="G_Rev">
-          </el-table-column>
-          <el-table-column model-key="FF" label="FF">
-          </el-table-column>
-          <el-table-column model-key="Von" label="Von">
-          </el-table-column>
-          <el-table-column model-key="Voc" label="Voc">
-          </el-table-column>
-          <el-table-column model-key="Vbd" label="Vbd">
-          </el-table-column>
-      </el-table>
-      <div style="text-align: center">
-          <ul class="list" style="list-style:none">
-              <li>
-                  <span></span>
-                  <el-pagination id="page" [(model)]="page" (modelChange)="pageChange()" [(total)]="total" [(page-size)]="pageSize" [layout]="['prev', 'pager', 'next', 'jumper',  'total']">
-                  </el-pagination>
-              </li>
-          </ul>
-      </div>
-  </div>
+<div class="content">
+    <div>
+        <label>IV Prism</label>
+    </div>
+    <div class="header">
+        <div class="date_picker">
+            <el-date-picker [(model)]="cTime"  [format]="'yyyy年MM月dd日'"> </el-date-picker>
+            <el-date-picker [(model)]="dTime"  [format]="'yyyy年MM月dd日'"> </el-date-picker>
+        </div>
+        <div class="operator">
+            <el-button type="primary">Show 50 rows</el-button>
+            <el-button type="primary">Copy</el-button>
+            <el-button (click)="onExport()" type="primary">Excel</el-button>
+            <el-button type="primary">CSV</el-button>
+            <el-button type="primary">Print</el-button>
+            <el-button (click)="onSearch()" type="primary">Reset</el-button>
+        </div>
+    </div>
+    <div class="template" [el-loading]="loadStatus" [text]="'Loading...'">
+        <el-table class="table" [model]="tableData" [stripe]="true" [border]="true">
+            <el-table-column model-key="Wafer"      label="Wafer"   width="100px"></el-table-column>
+            <el-table-column model-key="Step"       label="Step"    width="60px"></el-table-column>
+            <el-table-column model-key="Cell"       label="Cell"    width="50px"></el-table-column>
+            <el-table-column model-key="Owner"      label="Owner"   width="150px"></el-table-column>
+            <el-table-column model-key="Purpose"    label="Purpose" width="200px"></el-table-column>
+            <el-table-column model-key="Flow"       label="Flow"    width="100px"></el-table-column>
+            <el-table-column model-key="Bin"        label="Bin"     width="80px"></el-table-column>
+            <el-table-column model-key="Eff_DATIME" label="Eff_DATIME" width="120px"> </el-table-column>
+            <el-table-column model-key="Jsc_Active" label="Jsc_Active" width="100px"></el-table-column>
+            <el-table-column model-key="Rs"         label="Rs"      width="100px"></el-table-column>
+            <el-table-column model-key="Vp"         label="Vp"      width="120px"></el-table-column>
+            <el-table-column model-key="Np"         label="Np"      width="120px"></el-table-column>
+            <el-table-column model-key="G_Rev"      label="G_Rev"   width="140px"></el-table-column>
+            <el-table-column model-key="FF"         label="FF"      width="100px"></el-table-column>
+            <el-table-column model-key="Von"        label="Von" width="105px"></el-table-column>
+            <el-table-column model-key="Voc"        label="Voc"></el-table-column>
+            <el-table-column model-key="Vbd"        label="Vbd"></el-table-column>
+        </el-table>
+        <div style="text-align: center">
+            <ul class="list" style="list-style:none">
+                <li>
+                    <span></span>
+                    <el-pagination id="page" [(model)]="page" (modelChange)="pageChange()" [(total)]="total" [(page-size)]="pageSize" [layout]="['prev', 'pager', 'next', 'jumper',  'total']">
+                    </el-pagination>
+                </li>
+            </ul>
+        </div>
+    </div>
 </div>
-
+      
+      
