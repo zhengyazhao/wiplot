@@ -1,0 +1,337 @@
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\ApplicationInsights.config
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\AD.Svs.Web.SyncDB.DataServices.dll.config
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\AD.Svs.Web.SyncDB.DataServices.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\AD.Svs.Web.SyncDB.DataServices.pdb
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\csc.exe
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\csc.exe.config
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\csc.rsp
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\csi.exe
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\csi.exe.config
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\csi.rsp
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.Managed.Core.targets
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.AppContext.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Collections.Immutable.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Console.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Globalization.Calendars.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.IO.Compression.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.IO.FileSystem.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Net.Http.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Net.Sockets.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Reflection.Metadata.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.ValueTuple.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Xml.XmlDocument.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Xml.XPath.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\vbc.exe
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\vbc.exe.config
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\vbc.rsp
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\VBCSCompiler.exe
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\VBCSCompiler.exe.config
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Antlr3.Runtime.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\EntityFramework.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\EntityFramework.SqlServer.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.Agent.Intercept.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.DependencyCollector.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.Web.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.WindowsServer.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.ApplicationInsights.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.Web.Infrastructure.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Newtonsoft.Json.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\NLog.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Diagnostics.DiagnosticSource.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Net.Http.Formatting.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Cors.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Helpers.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Http.Cors.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Http.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Http.WebHost.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Mvc.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Optimization.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Razor.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.WebPages.Deployment.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.WebPages.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.WebPages.Razor.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\WebGrease.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Antlr3.Runtime.pdb
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\EntityFramework.xml
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\EntityFramework.SqlServer.xml
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.DependencyCollector.xml
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.PerfCounterCollector.xml
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.Web.xml
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.WindowsServer.xml
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.ApplicationInsights.xml
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Newtonsoft.Json.pdb
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Newtonsoft.Json.xml
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\NLog.xml
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Diagnostics.DiagnosticSource.xml
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Net.Http.Formatting.xml
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Helpers.xml
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Http.xml
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Http.Cors.xml
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Http.WebHost.xml
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Mvc.xml
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Optimization.xml
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Razor.xml
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.WebPages.xml
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.WebPages.Deployment.xml
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.WebPages.Razor.xml
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\obj\Debug\AD.Svs.Web.SyncDB.DataServices.csprojAssemblyReference.cache
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\obj\Debug\AD.Svs.Web.SyncDB.DataServices.csproj.CoreCompileInputs.cache
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\obj\Debug\AD.Svs.Web.SyncDB.DataServices.csproj.CopyComplete
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\obj\Debug\AD.Svs.Web.SyncDB.DataServices.dll
+C:\TFS\IT\MES_ToolAutomation_Projects\Development\AD\Svcs\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\obj\Debug\AD.Svs.Web.SyncDB.DataServices.pdb
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\ApplicationInsights.config
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\AD.Svs.Web.SyncDB.DataServices.dll.config
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\AD.Svs.Web.SyncDB.DataServices.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\AD.Svs.Web.SyncDB.DataServices.pdb
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\csc.exe
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\csc.exe.config
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\csc.rsp
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\csi.exe
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\csi.exe.config
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\csi.rsp
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.Managed.Core.targets
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.AppContext.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Collections.Immutable.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Console.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Globalization.Calendars.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.IO.Compression.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.IO.FileSystem.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Net.Http.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Net.Sockets.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Reflection.Metadata.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.ValueTuple.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Xml.XmlDocument.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Xml.XPath.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\vbc.exe
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\vbc.exe.config
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\vbc.rsp
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\VBCSCompiler.exe
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\VBCSCompiler.exe.config
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Antlr3.Runtime.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\EntityFramework.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\EntityFramework.SqlServer.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.Agent.Intercept.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.DependencyCollector.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.Web.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.WindowsServer.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.ApplicationInsights.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.Web.Infrastructure.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Newtonsoft.Json.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\NLog.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Diagnostics.DiagnosticSource.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Net.Http.Formatting.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Cors.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Helpers.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Http.Cors.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Http.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Http.WebHost.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Mvc.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Optimization.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Razor.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.WebPages.Deployment.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.WebPages.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.WebPages.Razor.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\WebGrease.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Antlr3.Runtime.pdb
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\EntityFramework.xml
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\EntityFramework.SqlServer.xml
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.DependencyCollector.xml
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.PerfCounterCollector.xml
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.Web.xml
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.WindowsServer.xml
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.ApplicationInsights.xml
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Newtonsoft.Json.pdb
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Newtonsoft.Json.xml
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\NLog.xml
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Diagnostics.DiagnosticSource.xml
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Net.Http.Formatting.xml
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Helpers.xml
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Http.xml
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Http.Cors.xml
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Http.WebHost.xml
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Mvc.xml
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Optimization.xml
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Razor.xml
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.WebPages.xml
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.WebPages.Deployment.xml
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.WebPages.Razor.xml
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\obj\Debug\AD.Svs.Web.SyncDB.DataServices.dll
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\obj\Debug\AD.Svs.Web.SyncDB.DataServices.pdb
+F:\出差\AD\AD work\MySQL to SQL\AD\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\obj\Debug\AD.Svs.Web.SyncDB.DataServices.csprojResolveAssemblyReference.cache
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\ApplicationInsights.config
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\AD.Svs.Web.SyncDB.DataServices.dll.config
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\AD.Svs.Web.SyncDB.DataServices.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\AD.Svs.Web.SyncDB.DataServices.pdb
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\csc.exe
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\csc.exe.config
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\csc.rsp
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\csi.exe
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\csi.exe.config
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\csi.rsp
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.Managed.Core.targets
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.AppContext.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Collections.Immutable.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Console.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Globalization.Calendars.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.IO.Compression.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.IO.FileSystem.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Net.Http.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Net.Sockets.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Reflection.Metadata.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.ValueTuple.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Xml.XmlDocument.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Xml.XPath.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\vbc.exe
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\vbc.exe.config
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\vbc.rsp
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\VBCSCompiler.exe
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\roslyn\VBCSCompiler.exe.config
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Antlr3.Runtime.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\EntityFramework.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\EntityFramework.SqlServer.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.Agent.Intercept.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.DependencyCollector.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.Web.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.WindowsServer.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.ApplicationInsights.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.Web.Infrastructure.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Newtonsoft.Json.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\NLog.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Diagnostics.DiagnosticSource.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Net.Http.Formatting.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Cors.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Helpers.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Http.Cors.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Http.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Http.WebHost.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Mvc.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Optimization.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Razor.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.WebPages.Deployment.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.WebPages.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.WebPages.Razor.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\WebGrease.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Antlr3.Runtime.pdb
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\EntityFramework.xml
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\EntityFramework.SqlServer.xml
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.DependencyCollector.xml
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.PerfCounterCollector.xml
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.Web.xml
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AI.WindowsServer.xml
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.ApplicationInsights.xml
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Newtonsoft.Json.pdb
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\Newtonsoft.Json.xml
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\NLog.xml
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Diagnostics.DiagnosticSource.xml
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Net.Http.Formatting.xml
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Helpers.xml
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Http.xml
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Http.Cors.xml
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Http.WebHost.xml
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Mvc.xml
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Optimization.xml
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.Razor.xml
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.WebPages.xml
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.WebPages.Deployment.xml
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\bin\System.Web.WebPages.Razor.xml
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\obj\Debug\AD.Svs.Web.SyncDB.DataServices.csprojAssemblyReference.cache
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\obj\Debug\AD.Svs.Web.SyncDB.DataServices.csproj.CoreCompileInputs.cache
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\obj\Debug\AD.Svs.Web.SyncDB.DataServices.csproj.CopyComplete
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\obj\Debug\AD.Svs.Web.SyncDB.DataServices.dll
+E:\code\美国源代码\01\Svcs1\Web\AD.Svs.Web.SyncDB.DataServices\AD.Svs.Web.SyncDB.DataServices\obj\Debug\AD.Svs.Web.SyncDB.DataServices.pdb

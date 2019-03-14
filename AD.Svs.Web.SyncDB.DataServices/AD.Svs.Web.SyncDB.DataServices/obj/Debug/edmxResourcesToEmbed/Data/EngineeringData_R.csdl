@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EngineeringDataModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="SyncDBEngineeringData_R" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="HiPotTests" EntityType="EngineeringDataModel.HiPotTest" />
+    <EntitySet Name="iv_all" EntityType="EngineeringDataModel.iv_all" />
+    <EntitySet Name="iv_berger" EntityType="EngineeringDataModel.iv_berger" />
+    <EntitySet Name="iv_rel" EntityType="EngineeringDataModel.iv_rel" />
+    <EntitySet Name="iv_rel1" EntityType="EngineeringDataModel.iv_rel1" />
+    <EntitySet Name="iv_prism" EntityType="EngineeringDataModel.iv_prism" />
+  </EntityContainer>
+  <EntityType Name="HiPotTest">
+    <Key>
+      <PropertyRef Name="UnitIdentifier" />
+      <PropertyRef Name="Hipot_Version" />
+    </Key>
+    <Property Name="UnitIdentifier" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Hipot_Version" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Hipot_DateTime" Type="DateTime" Precision="3" />
+    <Property Name="OperatorName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="RecipeName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="TestResultPassFail" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="InsertDateTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="UpdateDateTime" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="iv_all">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="32" FixedLength="false" Unicode="true" />
+    <Property Name="Type" Type="String" Nullable="false" MaxLength="32" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Isc" Type="Double" Nullable="false" />
+    <Property Name="Voc" Type="Double" Nullable="false" />
+    <Property Name="Imp" Type="Double" Nullable="false" />
+    <Property Name="Vmp" Type="Double" Nullable="false" />
+    <Property Name="FF" Type="Double" Nullable="false" />
+    <Property Name="Pmp" Type="Double" Nullable="false" />
+    <Property Name="Eff" Type="Double" Nullable="false" />
+    <Property Name="Area" Type="Double" Nullable="false" />
+    <Property Name="Von" Type="Double" Nullable="false" />
+    <Property Name="Ibd" Type="Double" Nullable="false" />
+    <Property Name="Vbd" Type="Double" Nullable="false" />
+    <Property Name="Jsc" Type="Double" Nullable="false" />
+    <Property Name="Jmp" Type="Double" Nullable="false" />
+    <Property Name="Rs" Type="Double" Nullable="false" />
+    <Property Name="Rsh" Type="Double" Nullable="false" />
+    <Property Name="Wafer" Type="String" Nullable="false" MaxLength="32" FixedLength="false" Unicode="true" />
+    <Property Name="Cell" Type="String" Nullable="false" MaxLength="32" FixedLength="false" Unicode="true" />
+    <Property Name="Location_flow" Type="String" Nullable="false" MaxLength="32" FixedLength="false" Unicode="true" />
+    <Property Name="SystemID" Type="String" Nullable="false" MaxLength="64" FixedLength="false" Unicode="true" />
+    <Property Name="Test_recipe" Type="String" Nullable="false" MaxLength="64" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="iv_berger">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Lot" Type="String" Nullable="false" MaxLength="64" FixedLength="false" Unicode="false" />
+    <Property Name="Module" Type="String" Nullable="false" MaxLength="32" FixedLength="false" Unicode="false" />
+    <Property Name="SN" Type="String" Nullable="false" MaxLength="32" FixedLength="false" Unicode="false" />
+    <Property Name="Active_Area" Type="Double" Nullable="false" />
+    <Property Name="Mesa_Area" Type="Double" Nullable="false" />
+    <Property Name="Total_Area" Type="Double" Nullable="false" />
+    <Property Name="R_sh" Type="Double" Nullable="false" />
+    <Property Name="R_s" Type="Double" Nullable="false" />
+    <Property Name="V_on" Type="Double" Nullable="false" />
+    <Property Name="J_01" Type="Double" Nullable="false" />
+    <Property Name="J_02" Type="Double" Nullable="false" />
+    <Property Name="J_dark___0_8V" Type="Double" Nullable="false" />
+    <Property Name="J_sc_active" Type="Double" Nullable="false" />
+    <Property Name="J_sc_mesa" Type="Double" Nullable="false" />
+    <Property Name="J_sc_total" Type="Double" Nullable="false" />
+    <Property Name="V_oc" Type="Double" Nullable="false" />
+    <Property Name="FF" Type="Double" Nullable="false" />
+    <Property Name="Eff_active" Type="Double" Nullable="false" />
+    <Property Name="Eff_mesa" Type="Double" Nullable="false" />
+    <Property Name="Eff_total" Type="Double" Nullable="false" />
+    <Property Name="J_mp_active" Type="Double" Nullable="false" />
+    <Property Name="J_mp_mesa" Type="Double" Nullable="false" />
+    <Property Name="J_mp_total" Type="Double" Nullable="false" />
+    <Property Name="V_max" Type="Double" Nullable="false" />
+    <Property Name="Operator" Type="String" Nullable="false" MaxLength="64" FixedLength="false" Unicode="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="SystemID" Type="String" Nullable="false" MaxLength="64" FixedLength="false" Unicode="false" />
+    <Property Name="Test_recipe" Type="String" Nullable="false" MaxLength="64" FixedLength="false" Unicode="false" />
+    <Property Name="Temperature" Type="Double" Nullable="false" />
+    <Property Name="Location_flow" Type="String" Nullable="false" MaxLength="64" FixedLength="false" Unicode="false" />
+    <Property Name="Mask_ID" Type="String" Nullable="false" MaxLength="64" FixedLength="false" Unicode="false" />
+    <Property Name="Coordinate_system" Type="String" Nullable="false" MaxLength="32" FixedLength="false" Unicode="false" />
+    <Property Name="Cell_status" Type="String" Nullable="false" MaxLength="32" FixedLength="false" Unicode="false" />
+    <Property Name="Comment" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Contact_R_P" Type="Double" Nullable="false" />
+    <Property Name="Contact_R_N" Type="Double" Nullable="false" />
+    <Property Name="Isc" Type="Double" Nullable="false" />
+    <Property Name="Imax" Type="Double" Nullable="false" />
+    <Property Name="kind" Type="String" Nullable="false" MaxLength="64" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="iv_rel">
+    <Key>
+      <PropertyRef Name="Step" />
+      <PropertyRef Name="Wafer" />
+      <PropertyRef Name="Cell" />
+    </Key>
+    <Property Name="rel_date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Step" Type="String" Nullable="false" MaxLength="53" FixedLength="false" Unicode="false" />
+    <Property Name="Wafer" Type="String" Nullable="false" MaxLength="53" FixedLength="false" Unicode="false" />
+    <Property Name="Cell" Type="String" Nullable="false" MaxLength="53" FixedLength="false" Unicode="false" />
+    <Property Name="Voc_Percent" Type="Double" Nullable="false" />
+    <Property Name="Isc_Percent" Type="Double" Nullable="false" />
+    <Property Name="FF_Percent" Type="Double" Nullable="false" />
+    <Property Name="Eff_Percent" Type="Double" Nullable="false" />
+    <Property Name="Gsh_Delta" Type="Double" Nullable="false" />
+    <Property Name="Rs_Delta" Type="Double" Nullable="false" />
+    <Property Name="Vp_Percent" Type="Double" Nullable="false" />
+    <Property Name="Eff" Type="Double" />
+    <Property Name="Vbd" Type="Double" />
+    <Property Name="Gsh" Type="Double" />
+    <Property Name="Bin" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+    <Property Name="optical" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+    <Property Name="pl" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="iv_rel1">
+    <Key>
+      <PropertyRef Name="rel_date" />
+      <PropertyRef Name="Step" />
+      <PropertyRef Name="Wafer" />
+      <PropertyRef Name="Cell" />
+      <PropertyRef Name="Voc_Percent" />
+      <PropertyRef Name="Isc_Percent" />
+      <PropertyRef Name="FF_Percent" />
+      <PropertyRef Name="Eff_Percent" />
+      <PropertyRef Name="Gsh_Delta" />
+      <PropertyRef Name="Rs_Delta" />
+      <PropertyRef Name="Vp_Percent" />
+    </Key>
+    <Property Name="rel_date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Step" Type="String" Nullable="false" MaxLength="53" FixedLength="false" Unicode="false" />
+    <Property Name="Wafer" Type="String" Nullable="false" MaxLength="53" FixedLength="false" Unicode="false" />
+    <Property Name="Cell" Type="String" Nullable="false" MaxLength="53" FixedLength="false" Unicode="false" />
+    <Property Name="Voc_Percent" Type="Double" Nullable="false" />
+    <Property Name="Isc_Percent" Type="Double" Nullable="false" />
+    <Property Name="FF_Percent" Type="Double" Nullable="false" />
+    <Property Name="Eff_Percent" Type="Double" Nullable="false" />
+    <Property Name="Gsh_Delta" Type="Double" Nullable="false" />
+    <Property Name="Rs_Delta" Type="Double" Nullable="false" />
+    <Property Name="Vp_Percent" Type="Double" Nullable="false" />
+    <Property Name="Eff" Type="Double" />
+    <Property Name="Vbd" Type="Double" />
+    <Property Name="Gsh" Type="Double" />
+    <Property Name="Bin" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+    <Property Name="optical" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="pl" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="iv_prism">
+    <Key>
+      <PropertyRef Name="Wafer" />
+      <PropertyRef Name="Step" />
+      <PropertyRef Name="Cell" />
+    </Key>
+    <Property Name="Wafer" Type="String" Nullable="false" MaxLength="53" FixedLength="false" Unicode="false" />
+    <Property Name="Step" Type="String" Nullable="false" MaxLength="53" FixedLength="false" Unicode="false" />
+    <Property Name="Cell" Type="String" Nullable="false" MaxLength="53" FixedLength="false" Unicode="false" />
+    <Property Name="Owner" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Purpose" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Flow" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Bin" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+    <Property Name="screen_date" Type="DateTime" Precision="3" />
+    <Property Name="Prism_date" Type="DateTime" Precision="3" />
+    <Property Name="TestDate" Type="DateTime" Precision="3" />
+    <Property Name="DATime_date" Type="DateTime" Precision="3" />
+    <Property Name="Epi_run_number" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+    <Property Name="Rs" Type="Single" />
+    <Property Name="Vp" Type="Single" />
+    <Property Name="Np" Type="Single" />
+    <Property Name="Vp_Indoor" Type="Single" />
+    <Property Name="Np_Indoor" Type="Single" />
+    <Property Name="Loss_Rs" Type="Single" />
+    <Property Name="Rs_Jsc" Type="Single" />
+    <Property Name="Jsc_Dark" Type="Single" />
+    <Property Name="G_Rev" Type="Single" />
+    <Property Name="Pre_Rs" Type="Single" />
+    <Property Name="Pre_Vp" Type="Single" />
+    <Property Name="Pre_Np" Type="Single" />
+    <Property Name="Pre_Vp_Indoor" Type="Single" />
+    <Property Name="Pre_Np_Indoor" Type="Single" />
+    <Property Name="Pre_Loss_Rs" Type="Single" />
+    <Property Name="Pre_Rs_Jsc" Type="Single" />
+    <Property Name="Pre_G_Rev" Type="Single" />
+    <Property Name="BD_G_BD" Type="Single" />
+    <Property Name="BD_G_Rev" Type="Single" />
+    <Property Name="Eff_DATIME" Type="Single" />
+    <Property Name="Jsc_Active" Type="Single" />
+    <Property Name="FF" Type="Single" />
+    <Property Name="Von" Type="Single" />
+    <Property Name="Voc" Type="Single" />
+    <Property Name="Eff_Active" Type="Single" />
+    <Property Name="J_Dark" Type="Single" />
+    <Property Name="Pre_Eff_DATIME" Type="Single" />
+    <Property Name="Pre_Jsc_Active" Type="Single" />
+    <Property Name="Pre_FF" Type="Single" />
+    <Property Name="Pre_Von" Type="Single" />
+    <Property Name="Pre_Voc" Type="Single" />
+    <Property Name="Pre_Eff_Active" Type="Single" />
+    <Property Name="Pre_Jsc_Dark" Type="Single" />
+    <Property Name="Vbd" Type="Single" />
+  </EntityType>
+</Schema>

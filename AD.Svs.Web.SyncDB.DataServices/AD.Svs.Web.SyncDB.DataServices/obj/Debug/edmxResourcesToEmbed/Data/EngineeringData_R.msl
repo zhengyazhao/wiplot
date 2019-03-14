@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EngineeringDataModelStoreContainer" CdmEntityContainer="SyncDBEngineeringData_R">
+    <EntitySetMapping Name="HiPotTests">
+      <EntityTypeMapping TypeName="EngineeringDataModel.HiPotTest">
+        <MappingFragment StoreEntitySet="HiPotTest">
+          <ScalarProperty Name="UpdateDateTime" ColumnName="UpdateDateTime" />
+          <ScalarProperty Name="InsertDateTime" ColumnName="InsertDateTime" />
+          <ScalarProperty Name="TestResultPassFail" ColumnName="TestResultPassFail" />
+          <ScalarProperty Name="RecipeName" ColumnName="RecipeName" />
+          <ScalarProperty Name="OperatorName" ColumnName="OperatorName" />
+          <ScalarProperty Name="Hipot_DateTime" ColumnName="Hipot_DateTime" />
+          <ScalarProperty Name="Hipot_Version" ColumnName="Hipot_Version" />
+          <ScalarProperty Name="UnitIdentifier" ColumnName="UnitIdentifier" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iv_all">
+      <EntityTypeMapping TypeName="EngineeringDataModel.iv_all">
+        <MappingFragment StoreEntitySet="iv_all">
+          <ScalarProperty Name="Test_recipe" ColumnName="Test_recipe" />
+          <ScalarProperty Name="SystemID" ColumnName="SystemID" />
+          <ScalarProperty Name="Location_flow" ColumnName="Location_flow" />
+          <ScalarProperty Name="Cell" ColumnName="Cell" />
+          <ScalarProperty Name="Wafer" ColumnName="Wafer" />
+          <ScalarProperty Name="Rsh" ColumnName="Rsh" />
+          <ScalarProperty Name="Rs" ColumnName="Rs" />
+          <ScalarProperty Name="Jmp" ColumnName="Jmp" />
+          <ScalarProperty Name="Jsc" ColumnName="Jsc" />
+          <ScalarProperty Name="Vbd" ColumnName="Vbd" />
+          <ScalarProperty Name="Ibd" ColumnName="Ibd" />
+          <ScalarProperty Name="Von" ColumnName="Von" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Eff" ColumnName="Eff" />
+          <ScalarProperty Name="Pmp" ColumnName="Pmp" />
+          <ScalarProperty Name="FF" ColumnName="FF" />
+          <ScalarProperty Name="Vmp" ColumnName="Vmp" />
+          <ScalarProperty Name="Imp" ColumnName="Imp" />
+          <ScalarProperty Name="Voc" ColumnName="Voc" />
+          <ScalarProperty Name="Isc" ColumnName="Isc" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iv_berger">
+      <EntityTypeMapping TypeName="EngineeringDataModel.iv_berger">
+        <MappingFragment StoreEntitySet="iv_berger">
+          <ScalarProperty Name="kind" ColumnName="kind" />
+          <ScalarProperty Name="Imax" ColumnName="Imax" />
+          <ScalarProperty Name="Isc" ColumnName="Isc" />
+          <ScalarProperty Name="Contact_R_N" ColumnName="Contact_R_N" />
+          <ScalarProperty Name="Contact_R_P" ColumnName="Contact_R_P" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="Cell_status" ColumnName="Cell_status" />
+          <ScalarProperty Name="Coordinate_system" ColumnName="Coordinate_system" />
+          <ScalarProperty Name="Mask_ID" ColumnName="Mask_ID" />
+          <ScalarProperty Name="Location_flow" ColumnName="Location_flow" />
+          <ScalarProperty Name="Temperature" ColumnName="Temperature" />
+          <ScalarProperty Name="Test_recipe" ColumnName="Test_recipe" />
+          <ScalarProperty Name="SystemID" ColumnName="SystemID" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="V_max" ColumnName="V_max" />
+          <ScalarProperty Name="J_mp_total" ColumnName="J_mp_total" />
+          <ScalarProperty Name="J_mp_mesa" ColumnName="J_mp_mesa" />
+          <ScalarProperty Name="J_mp_active" ColumnName="J_mp_active" />
+          <ScalarProperty Name="Eff_total" ColumnName="Eff_total" />
+          <ScalarProperty Name="Eff_mesa" ColumnName="Eff_mesa" />
+          <ScalarProperty Name="Eff_active" ColumnName="Eff_active" />
+          <ScalarProperty Name="FF" ColumnName="FF" />
+          <ScalarProperty Name="V_oc" ColumnName="V_oc" />
+          <ScalarProperty Name="J_sc_total" ColumnName="J_sc_total" />
+          <ScalarProperty Name="J_sc_mesa" ColumnName="J_sc_mesa" />
+          <ScalarProperty Name="J_sc_active" ColumnName="J_sc_active" />
+          <ScalarProperty Name="J_dark___0_8V" ColumnName="J_dark @ 0.8V" />
+          <ScalarProperty Name="J_02" ColumnName="J_02" />
+          <ScalarProperty Name="J_01" ColumnName="J_01" />
+          <ScalarProperty Name="V_on" ColumnName="V_on" />
+          <ScalarProperty Name="R_s" ColumnName="R_s" />
+          <ScalarProperty Name="R_sh" ColumnName="R_sh" />
+          <ScalarProperty Name="Total_Area" ColumnName="Total_Area" />
+          <ScalarProperty Name="Mesa_Area" ColumnName="Mesa_Area" />
+          <ScalarProperty Name="Active_Area" ColumnName="Active_Area" />
+          <ScalarProperty Name="SN" ColumnName="SN" />
+          <ScalarProperty Name="Module" ColumnName="Module" />
+          <ScalarProperty Name="Lot" ColumnName="Lot" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iv_rel">
+      <EntityTypeMapping TypeName="EngineeringDataModel.iv_rel">
+        <MappingFragment StoreEntitySet="iv_rel">
+          <ScalarProperty Name="pl" ColumnName="pl" />
+          <ScalarProperty Name="optical" ColumnName="optical" />
+          <ScalarProperty Name="Bin" ColumnName="Bin" />
+          <ScalarProperty Name="Gsh" ColumnName="Gsh" />
+          <ScalarProperty Name="Vbd" ColumnName="Vbd" />
+          <ScalarProperty Name="Eff" ColumnName="Eff" />
+          <ScalarProperty Name="Vp_Percent" ColumnName="Vp_Percent" />
+          <ScalarProperty Name="Rs_Delta" ColumnName="Rs_Delta" />
+          <ScalarProperty Name="Gsh_Delta" ColumnName="Gsh_Delta" />
+          <ScalarProperty Name="Eff_Percent" ColumnName="Eff_Percent" />
+          <ScalarProperty Name="FF_Percent" ColumnName="FF_Percent" />
+          <ScalarProperty Name="Isc_Percent" ColumnName="Isc_Percent" />
+          <ScalarProperty Name="Voc_Percent" ColumnName="Voc_Percent" />
+          <ScalarProperty Name="Cell" ColumnName="Cell" />
+          <ScalarProperty Name="Wafer" ColumnName="Wafer" />
+          <ScalarProperty Name="Step" ColumnName="Step" />
+          <ScalarProperty Name="rel_date" ColumnName="rel_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iv_rel1">
+      <EntityTypeMapping TypeName="EngineeringDataModel.iv_rel1">
+        <MappingFragment StoreEntitySet="iv_rel1">
+          <ScalarProperty Name="pl" ColumnName="pl" />
+          <ScalarProperty Name="optical" ColumnName="optical" />
+          <ScalarProperty Name="Bin" ColumnName="Bin" />
+          <ScalarProperty Name="Gsh" ColumnName="Gsh" />
+          <ScalarProperty Name="Vbd" ColumnName="Vbd" />
+          <ScalarProperty Name="Eff" ColumnName="Eff" />
+          <ScalarProperty Name="Vp_Percent" ColumnName="Vp_Percent" />
+          <ScalarProperty Name="Rs_Delta" ColumnName="Rs_Delta" />
+          <ScalarProperty Name="Gsh_Delta" ColumnName="Gsh_Delta" />
+          <ScalarProperty Name="Eff_Percent" ColumnName="Eff_Percent" />
+          <ScalarProperty Name="FF_Percent" ColumnName="FF_Percent" />
+          <ScalarProperty Name="Isc_Percent" ColumnName="Isc_Percent" />
+          <ScalarProperty Name="Voc_Percent" ColumnName="Voc_Percent" />
+          <ScalarProperty Name="Cell" ColumnName="Cell" />
+          <ScalarProperty Name="Wafer" ColumnName="Wafer" />
+          <ScalarProperty Name="Step" ColumnName="Step" />
+          <ScalarProperty Name="rel_date" ColumnName="rel_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iv_prism">
+      <EntityTypeMapping TypeName="EngineeringDataModel.iv_prism">
+        <MappingFragment StoreEntitySet="iv_prism">
+          <ScalarProperty Name="Vbd" ColumnName="Vbd" />
+          <ScalarProperty Name="Pre_Jsc_Dark" ColumnName="Pre_Jsc_Dark" />
+          <ScalarProperty Name="Pre_Eff_Active" ColumnName="Pre_Eff_Active" />
+          <ScalarProperty Name="Pre_Voc" ColumnName="Pre_Voc" />
+          <ScalarProperty Name="Pre_Von" ColumnName="Pre_Von" />
+          <ScalarProperty Name="Pre_FF" ColumnName="Pre_FF" />
+          <ScalarProperty Name="Pre_Jsc_Active" ColumnName="Pre_Jsc_Active" />
+          <ScalarProperty Name="Pre_Eff_DATIME" ColumnName="Pre_Eff_DATIME" />
+          <ScalarProperty Name="J_Dark" ColumnName="J_Dark" />
+          <ScalarProperty Name="Eff_Active" ColumnName="Eff_Active" />
+          <ScalarProperty Name="Voc" ColumnName="Voc" />
+          <ScalarProperty Name="Von" ColumnName="Von" />
+          <ScalarProperty Name="FF" ColumnName="FF" />
+          <ScalarProperty Name="Jsc_Active" ColumnName="Jsc_Active" />
+          <ScalarProperty Name="Eff_DATIME" ColumnName="Eff_DATIME" />
+          <ScalarProperty Name="BD_G_Rev" ColumnName="BD_G_Rev" />
+          <ScalarProperty Name="BD_G_BD" ColumnName="BD_G_BD" />
+          <ScalarProperty Name="Pre_G_Rev" ColumnName="Pre_G_Rev" />
+          <ScalarProperty Name="Pre_Rs_Jsc" ColumnName="Pre_Rs_Jsc" />
+          <ScalarProperty Name="Pre_Loss_Rs" ColumnName="Pre_Loss_Rs" />
+          <ScalarProperty Name="Pre_Np_Indoor" ColumnName="Pre_Np_Indoor" />
+          <ScalarProperty Name="Pre_Vp_Indoor" ColumnName="Pre_Vp_Indoor" />
+          <ScalarProperty Name="Pre_Np" ColumnName="Pre_Np" />
+          <ScalarProperty Name="Pre_Vp" ColumnName="Pre_Vp" />
+          <ScalarProperty Name="Pre_Rs" ColumnName="Pre_Rs" />
+          <ScalarProperty Name="G_Rev" ColumnName="G_Rev" />
+          <ScalarProperty Name="Jsc_Dark" ColumnName="Jsc_Dark" />
+          <ScalarProperty Name="Rs_Jsc" ColumnName="Rs_Jsc" />
+          <ScalarProperty Name="Loss_Rs" ColumnName="Loss_Rs" />
+          <ScalarProperty Name="Np_Indoor" ColumnName="Np_Indoor" />
+          <ScalarProperty Name="Vp_Indoor" ColumnName="Vp_Indoor" />
+          <ScalarProperty Name="Np" ColumnName="Np" />
+          <ScalarProperty Name="Vp" ColumnName="Vp" />
+          <ScalarProperty Name="Rs" ColumnName="Rs" />
+          <ScalarProperty Name="Epi_run_number" ColumnName="Epi_run_number" />
+          <ScalarProperty Name="DATime_date" ColumnName="DATime_date" />
+          <ScalarProperty Name="TestDate" ColumnName="TestDate" />
+          <ScalarProperty Name="Prism_date" ColumnName="Prism_date" />
+          <ScalarProperty Name="screen_date" ColumnName="screen_date" />
+          <ScalarProperty Name="Bin" ColumnName="Bin" />
+          <ScalarProperty Name="Flow" ColumnName="Flow" />
+          <ScalarProperty Name="Purpose" ColumnName="Purpose" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="Cell" ColumnName="Cell" />
+          <ScalarProperty Name="Step" ColumnName="Step" />
+          <ScalarProperty Name="Wafer" ColumnName="Wafer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

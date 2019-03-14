@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EngineeringDataModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="iv_all">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="32" Nullable="false" />
+    <Property Name="Type" Type="nvarchar" MaxLength="32" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="Isc" Type="float" Nullable="false" />
+    <Property Name="Voc" Type="float" Nullable="false" />
+    <Property Name="Imp" Type="float" Nullable="false" />
+    <Property Name="Vmp" Type="float" Nullable="false" />
+    <Property Name="FF" Type="float" Nullable="false" />
+    <Property Name="Pmp" Type="float" Nullable="false" />
+    <Property Name="Eff" Type="float" Nullable="false" />
+    <Property Name="Area" Type="float" Nullable="false" />
+    <Property Name="Von" Type="float" Nullable="false" />
+    <Property Name="Ibd" Type="float" Nullable="false" />
+    <Property Name="Vbd" Type="float" Nullable="false" />
+    <Property Name="Jsc" Type="float" Nullable="false" />
+    <Property Name="Jmp" Type="float" Nullable="false" />
+    <Property Name="Rs" Type="float" Nullable="false" />
+    <Property Name="Rsh" Type="float" Nullable="false" />
+    <Property Name="Wafer" Type="nvarchar" MaxLength="32" Nullable="false" />
+    <Property Name="Cell" Type="nvarchar" MaxLength="32" Nullable="false" />
+    <Property Name="Location_flow" Type="nvarchar" MaxLength="32" Nullable="false" />
+    <Property Name="SystemID" Type="nvarchar" MaxLength="64" Nullable="false" />
+    <Property Name="Test_recipe" Type="nvarchar" MaxLength="64" Nullable="false" />
+  </EntityType>
+  <EntityType Name="iv_berger">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Lot" Type="varchar" MaxLength="64" Nullable="false" />
+    <Property Name="Module" Type="varchar" MaxLength="32" Nullable="false" />
+    <Property Name="SN" Type="varchar" MaxLength="32" Nullable="false" />
+    <Property Name="Active_Area" Type="float" Nullable="false" />
+    <Property Name="Mesa_Area" Type="float" Nullable="false" />
+    <Property Name="Total_Area" Type="float" Nullable="false" />
+    <Property Name="R_sh" Type="float" Nullable="false" />
+    <Property Name="R_s" Type="float" Nullable="false" />
+    <Property Name="V_on" Type="float" Nullable="false" />
+    <Property Name="J_01" Type="float" Nullable="false" />
+    <Property Name="J_02" Type="float" Nullable="false" />
+    <Property Name="J_dark @ 0.8V" Type="float" Nullable="false" />
+    <Property Name="J_sc_active" Type="float" Nullable="false" />
+    <Property Name="J_sc_mesa" Type="float" Nullable="false" />
+    <Property Name="J_sc_total" Type="float" Nullable="false" />
+    <Property Name="V_oc" Type="float" Nullable="false" />
+    <Property Name="FF" Type="float" Nullable="false" />
+    <Property Name="Eff_active" Type="float" Nullable="false" />
+    <Property Name="Eff_mesa" Type="float" Nullable="false" />
+    <Property Name="Eff_total" Type="float" Nullable="false" />
+    <Property Name="J_mp_active" Type="float" Nullable="false" />
+    <Property Name="J_mp_mesa" Type="float" Nullable="false" />
+    <Property Name="J_mp_total" Type="float" Nullable="false" />
+    <Property Name="V_max" Type="float" Nullable="false" />
+    <Property Name="Operator" Type="varchar" MaxLength="64" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="SystemID" Type="varchar" MaxLength="64" Nullable="false" />
+    <Property Name="Test_recipe" Type="varchar" MaxLength="64" Nullable="false" />
+    <Property Name="Temperature" Type="float" Nullable="false" />
+    <Property Name="Location_flow" Type="varchar" MaxLength="64" Nullable="false" />
+    <Property Name="Mask_ID" Type="varchar" MaxLength="64" Nullable="false" />
+    <Property Name="Coordinate_system" Type="varchar" MaxLength="32" Nullable="false" />
+    <Property Name="Cell_status" Type="varchar" MaxLength="32" Nullable="false" />
+    <Property Name="Comment" Type="varchar(max)" Nullable="false" />
+    <Property Name="Contact_R_P" Type="float" Nullable="false" />
+    <Property Name="Contact_R_N" Type="float" Nullable="false" />
+    <Property Name="Isc" Type="float" Nullable="false" />
+    <Property Name="Imax" Type="float" Nullable="false" />
+    <Property Name="kind" Type="varchar" MaxLength="64" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HiPotTest">
+    <Key>
+      <PropertyRef Name="UnitIdentifier" />
+      <PropertyRef Name="Hipot_Version" />
+    </Key>
+    <Property Name="UnitIdentifier" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Hipot_Version" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Hipot_DateTime" Type="datetime" />
+    <Property Name="OperatorName" Type="varchar" MaxLength="100" />
+    <Property Name="RecipeName" Type="varchar" MaxLength="100" />
+    <Property Name="TestResultPassFail" Type="varchar" MaxLength="25" />
+    <Property Name="InsertDateTime" Type="datetime" Nullable="false" />
+    <Property Name="UpdateDateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="iv_rel">
+    <Key>
+      <PropertyRef Name="Step" />
+      <PropertyRef Name="Wafer" />
+      <PropertyRef Name="Cell" />
+    </Key>
+    <Property Name="rel_date" Type="datetime" Nullable="false" />
+    <Property Name="Step" Type="varchar" MaxLength="53" Nullable="false" />
+    <Property Name="Wafer" Type="varchar" MaxLength="53" Nullable="false" />
+    <Property Name="Cell" Type="varchar" MaxLength="53" Nullable="false" />
+    <Property Name="Voc_Percent" Type="float" Nullable="false" />
+    <Property Name="Isc_Percent" Type="float" Nullable="false" />
+    <Property Name="FF_Percent" Type="float" Nullable="false" />
+    <Property Name="Eff_Percent" Type="float" Nullable="false" />
+    <Property Name="Gsh_Delta" Type="float" Nullable="false" />
+    <Property Name="Rs_Delta" Type="float" Nullable="false" />
+    <Property Name="Vp_Percent" Type="float" Nullable="false" />
+    <Property Name="Eff" Type="float" />
+    <Property Name="Vbd" Type="float" />
+    <Property Name="Gsh" Type="float" />
+    <Property Name="Bin" Type="varchar" MaxLength="64" />
+    <Property Name="optical" Type="varchar" MaxLength="64" />
+    <Property Name="pl" Type="varchar" MaxLength="64" />
+  </EntityType>
+  <!--生成过程中发现错误:
+警告 6002: 表/视图“EngineeringData_R.baja.iv_prism”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
+  <EntityType Name="iv_prism">
+    <Key>
+      <PropertyRef Name="Wafer" />
+      <PropertyRef Name="Step" />
+      <PropertyRef Name="Cell" />
+    </Key>
+    <Property Name="Wafer" Type="varchar" MaxLength="53" Nullable="false" />
+    <Property Name="Step" Type="varchar" MaxLength="53" Nullable="false" />
+    <Property Name="Cell" Type="varchar" MaxLength="53" Nullable="false" />
+    <Property Name="Owner" Type="nvarchar" MaxLength="255" />
+    <Property Name="Purpose" Type="nvarchar" MaxLength="255" />
+    <Property Name="Flow" Type="nvarchar" MaxLength="50" />
+    <Property Name="Bin" Type="varchar" MaxLength="64" />
+    <Property Name="screen_date" Type="datetime" />
+    <Property Name="Prism_date" Type="datetime" />
+    <Property Name="TestDate" Type="datetime" />
+    <Property Name="DATime_date" Type="datetime" />
+    <Property Name="Epi_run_number" Type="varchar" MaxLength="64" />
+    <Property Name="Rs" Type="real" />
+    <Property Name="Vp" Type="real" />
+    <Property Name="Np" Type="real" />
+    <Property Name="Vp_Indoor" Type="real" />
+    <Property Name="Np_Indoor" Type="real" />
+    <Property Name="Loss_Rs" Type="real" />
+    <Property Name="Rs_Jsc" Type="real" />
+    <Property Name="Jsc_Dark" Type="real" />
+    <Property Name="G_Rev" Type="real" />
+    <Property Name="Pre_Rs" Type="real" />
+    <Property Name="Pre_Vp" Type="real" />
+    <Property Name="Pre_Np" Type="real" />
+    <Property Name="Pre_Vp_Indoor" Type="real" />
+    <Property Name="Pre_Np_Indoor" Type="real" />
+    <Property Name="Pre_Loss_Rs" Type="real" />
+    <Property Name="Pre_Rs_Jsc" Type="real" />
+    <Property Name="Pre_G_Rev" Type="real" />
+    <Property Name="BD_G_BD" Type="real" />
+    <Property Name="BD_G_Rev" Type="real" />
+    <Property Name="Eff_DATIME" Type="real" />
+    <Property Name="Jsc_Active" Type="real" />
+    <Property Name="FF" Type="real" />
+    <Property Name="Von" Type="real" />
+    <Property Name="Voc" Type="real" />
+    <Property Name="Eff_Active" Type="real" />
+    <Property Name="J_Dark" Type="real" />
+    <Property Name="Pre_Eff_DATIME" Type="real" />
+    <Property Name="Pre_Jsc_Active" Type="real" />
+    <Property Name="Pre_FF" Type="real" />
+    <Property Name="Pre_Von" Type="real" />
+    <Property Name="Pre_Voc" Type="real" />
+    <Property Name="Pre_Eff_Active" Type="real" />
+    <Property Name="Pre_Jsc_Dark" Type="real" />
+    <Property Name="Vbd" Type="real" />
+  </EntityType>
+  <!--生成过程中发现错误:
+警告 6002: 表/视图“EngineeringData_R.baja.iv_rel”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
+  <EntityType Name="iv_rel1">
+    <Key>
+      <PropertyRef Name="rel_date" />
+      <PropertyRef Name="Step" />
+      <PropertyRef Name="Wafer" />
+      <PropertyRef Name="Cell" />
+      <PropertyRef Name="Voc_Percent" />
+      <PropertyRef Name="Isc_Percent" />
+      <PropertyRef Name="FF_Percent" />
+      <PropertyRef Name="Eff_Percent" />
+      <PropertyRef Name="Gsh_Delta" />
+      <PropertyRef Name="Rs_Delta" />
+      <PropertyRef Name="Vp_Percent" />
+    </Key>
+    <Property Name="rel_date" Type="datetime" Nullable="false" />
+    <Property Name="Step" Type="varchar" MaxLength="53" Nullable="false" />
+    <Property Name="Wafer" Type="varchar" MaxLength="53" Nullable="false" />
+    <Property Name="Cell" Type="varchar" MaxLength="53" Nullable="false" />
+    <Property Name="Voc_Percent" Type="float" Nullable="false" />
+    <Property Name="Isc_Percent" Type="float" Nullable="false" />
+    <Property Name="FF_Percent" Type="float" Nullable="false" />
+    <Property Name="Eff_Percent" Type="float" Nullable="false" />
+    <Property Name="Gsh_Delta" Type="float" Nullable="false" />
+    <Property Name="Rs_Delta" Type="float" Nullable="false" />
+    <Property Name="Vp_Percent" Type="float" Nullable="false" />
+    <Property Name="Eff" Type="float" />
+    <Property Name="Vbd" Type="float" />
+    <Property Name="Gsh" Type="float" />
+    <Property Name="Bin" Type="varchar" MaxLength="64" />
+    <Property Name="optical" Type="nvarchar(max)" />
+    <Property Name="pl" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityContainer Name="EngineeringDataModelStoreContainer">
+    <EntitySet Name="iv_all" EntityType="Self.iv_all" Schema="baja" store:Type="Tables" />
+    <EntitySet Name="iv_berger" EntityType="Self.iv_berger" Schema="baja" store:Type="Tables" />
+    <EntitySet Name="HiPotTest" EntityType="Self.HiPotTest" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="iv_rel" EntityType="Self.iv_rel" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="iv_prism" EntityType="Self.iv_prism" store:Type="Views" store:Schema="baja">
+      <DefiningQuery>SELECT 
+    [iv_prism].[Wafer] AS [Wafer], 
+    [iv_prism].[Step] AS [Step], 
+    [iv_prism].[Cell] AS [Cell], 
+    [iv_prism].[Owner] AS [Owner], 
+    [iv_prism].[Purpose] AS [Purpose], 
+    [iv_prism].[Flow] AS [Flow], 
+    [iv_prism].[Bin] AS [Bin], 
+    [iv_prism].[screen_date] AS [screen_date], 
+    [iv_prism].[Prism_date] AS [Prism_date], 
+    [iv_prism].[TestDate] AS [TestDate], 
+    [iv_prism].[DATime_date] AS [DATime_date], 
+    [iv_prism].[Epi_run_number] AS [Epi_run_number], 
+    [iv_prism].[Rs] AS [Rs], 
+    [iv_prism].[Vp] AS [Vp], 
+    [iv_prism].[Np] AS [Np], 
+    [iv_prism].[Vp_Indoor] AS [Vp_Indoor], 
+    [iv_prism].[Np_Indoor] AS [Np_Indoor], 
+    [iv_prism].[Loss_Rs] AS [Loss_Rs], 
+    [iv_prism].[Rs_Jsc] AS [Rs_Jsc], 
+    [iv_prism].[Jsc_Dark] AS [Jsc_Dark], 
+    [iv_prism].[G_Rev] AS [G_Rev], 
+    [iv_prism].[Pre_Rs] AS [Pre_Rs], 
+    [iv_prism].[Pre_Vp] AS [Pre_Vp], 
+    [iv_prism].[Pre_Np] AS [Pre_Np], 
+    [iv_prism].[Pre_Vp_Indoor] AS [Pre_Vp_Indoor], 
+    [iv_prism].[Pre_Np_Indoor] AS [Pre_Np_Indoor], 
+    [iv_prism].[Pre_Loss_Rs] AS [Pre_Loss_Rs], 
+    [iv_prism].[Pre_Rs_Jsc] AS [Pre_Rs_Jsc], 
+    [iv_prism].[Pre_G_Rev] AS [Pre_G_Rev], 
+    [iv_prism].[BD_G_BD] AS [BD_G_BD], 
+    [iv_prism].[BD_G_Rev] AS [BD_G_Rev], 
+    [iv_prism].[Eff_DATIME] AS [Eff_DATIME], 
+    [iv_prism].[Jsc_Active] AS [Jsc_Active], 
+    [iv_prism].[FF] AS [FF], 
+    [iv_prism].[Von] AS [Von], 
+    [iv_prism].[Voc] AS [Voc], 
+    [iv_prism].[Eff_Active] AS [Eff_Active], 
+    [iv_prism].[J_Dark] AS [J_Dark], 
+    [iv_prism].[Pre_Eff_DATIME] AS [Pre_Eff_DATIME], 
+    [iv_prism].[Pre_Jsc_Active] AS [Pre_Jsc_Active], 
+    [iv_prism].[Pre_FF] AS [Pre_FF], 
+    [iv_prism].[Pre_Von] AS [Pre_Von], 
+    [iv_prism].[Pre_Voc] AS [Pre_Voc], 
+    [iv_prism].[Pre_Eff_Active] AS [Pre_Eff_Active], 
+    [iv_prism].[Pre_Jsc_Dark] AS [Pre_Jsc_Dark], 
+    [iv_prism].[Vbd] AS [Vbd]
+    FROM [baja].[iv_prism] AS [iv_prism]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="iv_rel1" EntityType="Self.iv_rel1" store:Type="Views" store:Schema="baja" store:Name="iv_rel">
+      <DefiningQuery>SELECT 
+    [iv_rel1].[rel_date] AS [rel_date], 
+    [iv_rel1].[Step] AS [Step], 
+    [iv_rel1].[Wafer] AS [Wafer], 
+    [iv_rel1].[Cell] AS [Cell], 
+    [iv_rel1].[Voc_Percent] AS [Voc_Percent], 
+    [iv_rel1].[Isc_Percent] AS [Isc_Percent], 
+    [iv_rel1].[FF_Percent] AS [FF_Percent], 
+    [iv_rel1].[Eff_Percent] AS [Eff_Percent], 
+    [iv_rel1].[Gsh_Delta] AS [Gsh_Delta], 
+    [iv_rel1].[Rs_Delta] AS [Rs_Delta], 
+    [iv_rel1].[Vp_Percent] AS [Vp_Percent], 
+    [iv_rel1].[Eff] AS [Eff], 
+    [iv_rel1].[Vbd] AS [Vbd], 
+    [iv_rel1].[Gsh] AS [Gsh], 
+    [iv_rel1].[Bin] AS [Bin], 
+    [iv_rel1].[optical] AS [optical], 
+    [iv_rel1].[pl] AS [pl]
+    FROM [baja].[iv_rel] AS [iv_rel1]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>
