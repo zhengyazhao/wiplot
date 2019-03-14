@@ -5,16 +5,21 @@ import { PaginationModel } from '../domain/PaginstionModel';
 
 import { ConfigModel } from '../domain/configModel';
 import { ajaxOption, HttpAccessor } from '../lib/network/httpAccessor';
+import { excelService } from '../lib/common/excelservice';
+import { utilities } from '../lib/common/utilities';
+import { CstExportModel } from '../contract/exportEntity/cstModel';
+import { ElNotificationService } from 'element-angular'
 @Component({
   selector: 'wip_cst',
   templateUrl: './cst.component.html',
-  styleUrls: ['./cst.component.css']
+  styleUrls: ['./cst.component.scss']
 })
 export class CstComponent implements OnInit {
   // 分页实体
   private pageInfo: PaginationModel = new PaginationModel();
-
-  constructor(private configModel: ConfigModel, private message: ElMessageService, private Router: Router) {
+  private excelSercixe: excelService = new excelService();
+  private CstExportModel: CstExportModel;
+  constructor(private configModel: ConfigModel, private notify: ElNotificationService, private message: ElMessageService, private Router: Router) {
 
     this.loadList();
   }
@@ -22,31 +27,47 @@ export class CstComponent implements OnInit {
   ngOnInit() {
   }
 
-
-  successStatus = false;
-
+  //翻页参数
   total = 10;
   pageSize = 10;
   page = 1;
-  //点击菜单按钮
+  cTime = '';
 
-  handle(event: any) {
-
-
-  }
   //点击 搜索按钮
   onSearch(ref: any): void {
     this.pageInfo.total = 10;
-
-
-    this.message.show("搜索中");
-
     this.loadList();
+  }
+  ///导出
+  onExport() {
+    //导出标题列
+    let execlHead = ['姓名', '性别', '部门', '邮箱', '职称', '语言', '手机号', '备注'];
+    let execlDates = [];
+    this.tableData.forEach((value, index) => {
+      this.CstExportModel = new CstExportModel();
+      this.CstExportModel.userName = value.UserName;
+      this.CstExportModel.gender = value.gender;
+      this.CstExportModel.departmentSeq = value.departmentSeq;
+      this.CstExportModel.email = value.email;
+      this.CstExportModel.jobtitle = value.jobtitle;
+      this.CstExportModel.language = value.language;
+      this.CstExportModel.mobile = value.mobile;
+      this.CstExportModel.remark = value.remark;
+      execlDates.push(this.CstExportModel);
+
+    });
+    try {
+      this.excelSercixe.exportAsExcelFile("卡夹列表", execlHead, null, execlDates);
+      this.notify.success('导出成功!');
+    }
+    catch (e) {
+      this.notify.error("导出失败!");
+    }
   }
   //点击确认按钮
   onSave(ref: any): void {
 
-    this.message.show(ref.rowData.name + ":点击1次");
+    this.message.show(ref.rowData.UserName + ":点击1次");
 
   }
   //点击翻页
@@ -61,16 +82,29 @@ export class CstComponent implements OnInit {
 
     this.message.error(val.rowData.UserName + '删除成功！');
   }
- 
-  loadList() {
+
+  //查询条件
+  loadParms(): any {
     let parms = {
       total: this.total,
       pageSize: this.pageSize,
       page: this.page
     };
+    if (!utilities.strIsEmptyOrNull(this.cTime)) {
+      parms['ctime'] = this.cTime;
+    }
+    return parms;
+  }
+  ///表格加载状态
+  loadStatus = false;
+  tableData: any[] = [];
+
+  loadList() {
+    this.loadStatus = true;
+
     let option: ajaxOption = {
       url: this.configModel.serviceUrl + 'api/user/list',
-      data: parms,
+      data: this.loadParms(),
       type: "get",
     };
 
@@ -90,15 +124,17 @@ export class CstComponent implements OnInit {
         }
       },
       error: (err) => {
+        this.loadStatus = false;
         this.message.error("查询失败");
         return;
+      }, complete: () => {
+
+        this.loadStatus = false;
       }
     });
 
 
   }
-  // in component
-  tableData: any[] = [];
 
 
 

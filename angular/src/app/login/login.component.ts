@@ -4,13 +4,13 @@ import { Router } from '@angular/router';
 import { utilities } from '../lib/common/utilities';
 import { ConfigModel } from '../domain/configModel';
 import { ajaxOption, HttpAccessor } from '../lib/network/httpAccessor';
-import {LoginService} from '../services/login/login.service';
-import {userContract} from '../contract/userContract';
-import{HttpCodeEnum} from '../domain/enum/HttpCodeEnum';
+import { LoginService } from '../services/login/login.service';
+import { userContract } from '../contract/userContract';
+import { HttpCodeEnum } from '../domain/enum/HttpCodeEnum';
 @Component({
   selector: 'wip_login',
   templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css']
+  styleUrls: ['./login.component.scss']
 })
 export class LoginComponent implements OnInit {
   /*
@@ -19,20 +19,20 @@ export class LoginComponent implements OnInit {
 
   userName = "";
   userPass = "";
-  
+
   //卡夹服务
-  private loginService:LoginService;
-  private userContract:userContract=new userContract();
+  private loginService: LoginService;
+  private userContract: userContract = new userContract();
   constructor(private configModel: ConfigModel, private message: ElMessageService, private Router: Router) {
 
   }
-  //点击确认按钮
+
   ngOnInit() {
-    this.loginService=new LoginService();
+    this.loginService = new LoginService();
   }
 
   loginText = "登录";//登录按钮
-
+  //点击登录按钮
   onLogin() {
     this.loginText = '登录中...';
     if (utilities.strIsEmptyOrNull(this.userName) || utilities.strIsEmptyOrNull(this.userPass)) {
@@ -40,32 +40,32 @@ export class LoginComponent implements OnInit {
       this.loginText = "登录";
       return;
     }
-
-  
-    this.userContract.userName=this.userName;
-    this.userContract.userPwd=this.userPass;
-    this.loginService.login(this.userContract).subscribe({ next: (val) => {
-          if (val.HttpCode == HttpCodeEnum.serviceError) {
-            this.message.error(val.msg);
-            return;
-          }
-          if (val.HttpCode == HttpCodeEnum.error) {
-            this.message.error(val.msg);
-  
-          }
-          if (val.HttpCode == HttpCodeEnum.success) {
-            this.message.success(val.msg);
-            this.Router.navigateByUrl("main");
-          }
-        },
-        error: (err) => {
-          this.loginText = "登录";
-          this.message.error("登录失败");
+    this.userContract.userName = this.userName;
+    this.userContract.userPwd = this.userPass;
+    this.loginService.login(this.userContract).subscribe({
+      next: (val) => {
+        if (val.HttpCode == HttpCodeEnum.serviceError) {
+          this.message.error(val.msg);
           return;
-        }, complete: () => {
-          this.loginText = '登录';
-  
-        }}
+        }
+        if (val.HttpCode == HttpCodeEnum.error) {
+          this.message.error(val.msg);
+
+        }
+        if (val.HttpCode == HttpCodeEnum.success) {
+          this.message.success(val.msg);
+          this.Router.navigateByUrl("main");
+        }
+      },
+      error: (err) => {
+        this.loginText = "登录";
+        this.message.error("登录失败");
+        return;
+      }, complete: () => {
+        this.loginText = '登录';
+
+      }
+    }
     );
     // let parms = {
     //   UserName: this.userName,
@@ -108,5 +108,5 @@ export class LoginComponent implements OnInit {
   }
 
 
- 
+
 }
