@@ -33,7 +33,7 @@ export class LoginComponent implements OnInit {
 
   loginText = "登录";//登录按钮
 
-  onSave() {
+  onLogin() {
     this.loginText = '登录中...';
     if (utilities.strIsEmptyOrNull(this.userName) || utilities.strIsEmptyOrNull(this.userPass)) {
       this.message.error("请输入用户名或密码");

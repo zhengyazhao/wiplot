@@ -17,7 +17,7 @@
     <tr>
     
         <td colspan="2">
-            <el-button type="primary" [elDisabled]="loginText=='登录中...'"  style="width:300px" (click)="onLogin()" >{{loginText}}</el-button>
+            <el-button type="primary" (keyup.enter)='onLogin()'  [elDisabled]="loginText=='登录中...'"  style="width:300px" (click)="onLogin()" >{{loginText}}</el-button>
            
         </td>
     </tr>
