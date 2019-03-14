@@ -4,7 +4,7 @@ import { userContract } from '../../contract/userContract';
 import { Observable ,of} from 'rxjs';
 
 import{WipContract}from '../../contract/WipContract';
-import { ajaxOption, HttpAccessor } from 'element-angular/wiplot/src/app/lib/network/httpAccessor';
+import { ajaxOption, HttpAccessor } from '../../lib/network/httpAccessor';
 /**
  * 卡夹数据访问 date：2019年3月13日11:01:08
  */

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { CanActivate, Router } from '@angular/router';
-import { timeout } from 'element-angular/wiplot/node_modules/@types/q';
+
 
 @Injectable()
 export class AuthGuard implements CanActivate{
