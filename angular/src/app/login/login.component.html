@@ -1,0 +1,28 @@
+
+<div style="margin:0 auto;width:800px;height:800px">
+    
+ <Div style=" width:200px;height:30px; margin:0 auto;margin-top: 200px"> <h1 >报表系统登录</h1></Div>  
+
+
+<table   
+   id="login-table" style="width:300px;height:200px;margin:0 auto;margin-top:20px">
+    <tr >
+ 
+        <td><el-input [(model)]="userName" placeholder="请输入用户名"></el-input></td>
+    </tr>
+    <tr>
+       
+        <td><el-input [(model)]="userPass" placeholder="请输入密码"></el-input></td>
+    </tr>
+    <tr>
+    
+        <td colspan="2">
+            <el-button type="primary" [elDisabled]="loginText=='登录中...'"  style="width:300px" (click)="onLogin()" >{{loginText}}</el-button>
+           
+        </td>
+    </tr>
+</table>
+
+</div>
+
+

@@ -1,0 +1,69 @@
+<div style="height:780px;width:1800px;margin-left:30px">
+    <div style="width:100%;height:50px;">
+        <div style="width:500px; float:left">
+
+            <el-date-picker (modelChange)="handle($event)" [format]="'yyyy年MM月-dd日'">
+            </el-date-picker>
+
+      
+        </div>
+        <div style="width:400px;float:right; ">
+            <el-button type="primary" icon="edit"></el-button>
+            <el-button type="primary" icon="share"></el-button>
+            <el-button type="primary" icon="delete"></el-button>
+            <el-button type="primary" (click)="onSearch()" [(loading)]="successStatus" icon="search">搜索</el-button>
+            <el-button type="primary">上传<i class="el-icon-upload el-icon--right"></i></el-button>
+        </div>
+    </div>
+    <div style=" width:1850px">
+        <el-table [model]="tableData" [stripe]="true" [border]="true">
+            <el-table-column model-key="UserName" label="姓名">
+            </el-table-column>
+            <el-table-column model-key="gender" label="性别">
+            </el-table-column>
+            <el-table-column model-key="departmentSeq" label="部门">
+            </el-table-column>
+            <el-table-column model-key="email" label="邮箱">
+            </el-table-column>
+            <el-table-column model-key="jobtitle" label="职称">
+            </el-table-column>
+            <el-table-column model-key="language" label="语言">
+            </el-table-column>
+            <el-table-column model-key="mobile" label="手机号">
+            </el-table-column>
+            <el-table-column model-key="remark" label="备注">
+            </el-table-column>
+           
+            <el-table-column width="200" label="进度">
+                    <ng-template  #slot let-scope="scope" > 
+                        <el-progress [text-inside]="true" [stroke-width]="18" [status]="scope.rowData.pro<60?(scope.rowData.pro<40?'exception':''):'success' "  [percentage]=" scope.rowData.pro"></el-progress>
+                    </ng-template>
+                </el-table-column>
+            <el-table-column label="操作">
+                <ng-template #slot let-scope="scope">
+                    <el-button type="success" (click)="onSave(scope)">启用</el-button>
+                </ng-template>
+            </el-table-column>
+            <el-table-column label="操作">
+                <ng-template #slot let-scope="scope">
+                    <el-button type="danger" (click)="onDel(scope)">删除</el-button>
+                </ng-template>
+            </el-table-column>
+          
+        </el-table>
+
+    </div>
+</div>
+
+<div style="  text-align: center ">
+
+    <ul class="list" style="list-style:none  ">
+
+        <li>
+            <span></span>
+            <el-pagination id="page" [(model)]="page" (modelChange)="pageChange()" [(total)]="total" [(page-size)]="pageSize" [layout]="['prev', 'pager', 'next', 'jumper',  'total']">
+            </el-pagination>
+        </li>
+    </ul>
+
+</div>
