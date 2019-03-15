@@ -4,8 +4,13 @@
     </div>
     <div class="header">
         <div class="date_picker">
-            <el-date-picker [(model)]="cTime"  [format]="'yyyy年MM月dd日'"> </el-date-picker>
-            <el-date-picker [(model)]="dTime"  [format]="'yyyy年MM月dd日'"> </el-date-picker>
+            <el-date-picker
+                type="daterange" 
+                [(model)]="cTime" 
+                range-separator="-"
+                start-placeholder="start date"
+                end-placeholder="end date">
+            </el-date-picker>
         </div>
         <div class="operator">
             <el-button type="primary">Show 50 rows</el-button>
