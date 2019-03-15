@@ -64,7 +64,7 @@ export class excelService {
         });
 
 
-        FileSaver.saveAs(data, fileName + "_" + utilities.getDate(4) + ".xlsx");
+        FileSaver.saveAs(data, fileName + "_" + utilities.getDate(4) + ".csv");
     }
 
     //将数字转化为chart类型
