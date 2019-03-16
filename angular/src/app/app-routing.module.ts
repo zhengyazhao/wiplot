@@ -9,7 +9,7 @@ import { PrismComponent } from './prism/prism.component';
 import {AuthGuard} from './domain/auth.guard';
 //配置路由
 const routes: Routes = [
-  { path: '', redirectTo: '/login', pathMatch: 'full' },
+  { path: '', redirectTo: '/main', pathMatch: 'full' },
   { path: 'login', component: LoginComponent },
   {
     path: 'main', component: MainComponent,
