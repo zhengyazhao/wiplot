@@ -1,31 +1,22 @@
-<style lang="css" scoped>
-    .el-table >>> th {
-        background-color: red;
-    }
-    .el-table >>> th.gutter {
-        display: table-cell!important
-    }
-    .el-table >>>colgroup.gutter {
-        display: table-cell!important
-    }
-</style>
-
 <div class="content">
     <div>
         <label>IV Prism</label>
     </div>
-    <div class="header">
-         
+    <div>
         <div class="date_picker">
-                <div style="width:260px;float:left">
-                        <el-date-picker [(model)]="sTime" placeholder="请输入开始日期" [format]="'yyyy-MM-dd'">
-                        </el-date-picker>
-                        
-                    </div>
-                    <div style="width:300px;float:left">
-                        <el-date-picker [(model)]="eTime" placeholder="请输入结束日期" [format]="'yyyy-MM-dd'">
-                        </el-date-picker>
-                    </div>
+            <el-date-picker  
+                style="width: 250px;" 
+                [(model)]="sTime" 
+                placeholder="please select start date" 
+                [format]="'MM/dd/yyyy'">
+            </el-date-picker>
+            <el-date-picker 
+                style="width: 250px;" 
+                [(model)]="eTime" 
+                placeholder="please select end date" 
+                [format]="'MM/dd/yyyy'" 
+                (modelChange)="onDateSearch()">
+            </el-date-picker>
         </div>
         <div class="operator">
             <el-button type="primary">Show 50 rows</el-button>
@@ -37,24 +28,25 @@
         </div>
     </div>
     <div class="template" [el-loading]="loadStatus" [text]="'Loading...'">
-        <el-table class="table" [model]="tableData" [stripe]="true" [border]="true">
-            <el-table-column model-key="Wafer"      label="Wafer"   width="100px"></el-table-column>
-            <el-table-column model-key="Step"       label="Step"    width="60px"></el-table-column>
-            <el-table-column model-key="Cell"       label="Cell"    width="50px"></el-table-column>
-            <el-table-column model-key="Owner"      label="Owner"   width="150px"></el-table-column>
-            <el-table-column model-key="Purpose"    label="Purpose" width="200px"></el-table-column>
-            <el-table-column model-key="Flow"       label="Flow"    width="100px"></el-table-column>
-            <el-table-column model-key="Bin"        label="Bin"     width="80px"></el-table-column>
-            <el-table-column model-key="Eff_DATIME" label="Eff_DATIME" width="120px"> </el-table-column>
-            <el-table-column model-key="Jsc_Active" label="Jsc_Active" width="100px"></el-table-column>
-            <el-table-column model-key="Rs"         label="Rs"      width="100px"></el-table-column>
-            <el-table-column model-key="Vp"         label="Vp"      width="120px"></el-table-column>
-            <el-table-column model-key="Np"         label="Np"      width="120px"></el-table-column>
-            <el-table-column model-key="G_Rev"      label="G_Rev"   width="140px"></el-table-column>
-            <el-table-column model-key="FF"         label="FF"      width="100px"></el-table-column>
-            <el-table-column model-key="Von"        label="Von" width="105px"></el-table-column>
-            <el-table-column model-key="Voc"        label="Voc"></el-table-column>
-            <el-table-column model-key="Vbd"        label="Vbd"></el-table-column>
+        <el-table class="table" [model]="tableData" [stripe]="true"    [border]="true">
+            <el-table-column model-key="TestDate"   label="TestDate"   width="200"></el-table-column>
+            <el-table-column model-key="Wafer"      label="Wafer"      width="100"></el-table-column>
+            <el-table-column model-key="Step"       label="Step"       width="60"></el-table-column>
+            <el-table-column model-key="Cell"       label="Cell"       width="60"></el-table-column>
+            <el-table-column model-key="Owner"      label="Owner"      width="150"></el-table-column>
+            <el-table-column model-key="Purpose"    label="Purpose"    width="200"></el-table-column>
+            <el-table-column model-key="Flow"       label="Flow"       width="100"></el-table-column>
+            <el-table-column model-key="Bin"        label="Bin"        width="80"></el-table-column>
+            <el-table-column model-key="Eff_DATIME" label="Eff_DATIME" width="120"> </el-table-column>
+            <el-table-column model-key="Jsc_Active" label="Jsc_Active" width="100"></el-table-column>
+            <el-table-column model-key="Rs"         label="Rs"         width="100"></el-table-column>
+            <el-table-column model-key="Vp"         label="Vp"         width="120"></el-table-column>
+            <el-table-column model-key="Np"         label="Np"         width="120"></el-table-column>
+            <el-table-column model-key="G_Rev"      label="G_Rev"      width="140"></el-table-column>
+            <el-table-column model-key="FF"         label="FF"         width="100"></el-table-column>
+            <el-table-column model-key="Von"        label="Von"        width="105"></el-table-column>
+            <el-table-column model-key="Voc"        label="Voc"        width="100"></el-table-column>
+            <el-table-column model-key="Vbd"        label="Vbd"        width="100"></el-table-column>
         </el-table>
         <div style="text-align: center">
             <ul class="list" style="list-style:none">
