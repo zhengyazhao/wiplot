@@ -1,14 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { ElMessageService } from 'element-angular';
-import { Router } from '@angular/router';
-import { PaginationModel } from '../domain/PaginstionModel';
+import { ElMessageService, ElNotificationService } from 'element-angular';
 
 import { ConfigModel } from '../domain/configModel';
 import { ajaxOption, HttpAccessor } from '../lib/network/httpAccessor';
 import { excelService } from '../lib/common/excelservice';
-import { CstExportModel } from '../contract/exportEntity/cstModel';
 import { PrismExportModel } from '../contract/exportEntity/prismModel';
-import { ElNotificationService } from 'element-angular';
 
 @Component({
   selector: 'app-prism',
@@ -17,13 +13,10 @@ import { ElNotificationService } from 'element-angular';
 })
 
 export class PrismComponent implements OnInit {
-
-  private pageInfo: PaginationModel = new PaginationModel();
   private excelSercixe: excelService = new excelService();
-  private CstExportModel: CstExportModel;
   private PrismExportModel: PrismExportModel;
 
-  constructor(private configModel: ConfigModel, private notify: ElNotificationService, private message: ElMessageService, private Router: Router) {
+  constructor(private configModel: ConfigModel, private message: ElMessageService, private notify: ElNotificationService) {
     this.loadList(false);
   }
 
@@ -45,7 +38,6 @@ export class PrismComponent implements OnInit {
   exportModel:string=this.exportType[0];
 
   onDateSearch(){
-    console.log('on date search method...');
     this.loadList(true);
   }
 
@@ -160,12 +152,12 @@ export class PrismComponent implements OnInit {
     });
  
     try {
-      this.exportStatus=false;
-      this.excelSercixe.exportAsExcelFile("卡夹列表", execlHead, null, execlDates,this.exportModel);
-      this.notify.success('导出成功!');
+      this.exportStatus = false;
+      this.excelSercixe.exportAsExcelFile("Prism data", execlHead, null, execlDates,this.exportModel);
+      this.notify.success('Export to excel successfully!');
     }
     catch (e) {
-      this.notify.error("导出失败!");
+      this.notify.error("Export to excel failed!");
     }
   }
 }

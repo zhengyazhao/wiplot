@@ -28,10 +28,21 @@
             </el-date-picker>
         </div>
         <div class="operator">
-            <el-button type="primary">Show 50 rows</el-button>
             <el-button type="primary">Copy</el-button>
-            <el-button (click)="onExport()" type="primary">Excel</el-button>
-            <el-button type="primary">CSV</el-button>
+            <el-button (click)="showExport()" type="primary">{{exportTtile}}</el-button>
+            <!--弹出导出窗体-->
+            <el-dialog [title]="exportTtile" width="300px" [(visible)]="exportStatus">
+                <div style="  text-align:center">
+                    <div style="height:30px;">
+                        <el-radio class="radio" *ngFor='let item of exportType' [(model)]="exportModel"
+                            label="{{item}}">{{item}}</el-radio>
+                    </div>
+                    <div style="height:30pxl;margin-top:20px">
+                        <el-button type="primary" (click)='onExport()'>确认</el-button>
+                    </div>
+                </div>
+            </el-dialog>
+            <!--导出窗体结束-->
             <el-button type="primary">Print</el-button>
             <el-button (click)="onSearch()" type="primary">Reset</el-button>
         </div>
