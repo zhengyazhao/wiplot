@@ -2,6 +2,15 @@
     <div>
         <label>IV Prism</label>
     </div>
+    <div style="text-align: right">
+            <ul class="list" style="list-style:none">
+                <li>
+                    <span></span>
+                    <el-pagination id="page" [(model)]="page" (modelChange)="pageChange()" [(total)]="total" [(page-size)]="pageSize" [layout]="['prev', 'pager', 'next', 'jumper',  'total']">
+                    </el-pagination>
+                </li>
+            </ul>
+        </div>
     <div>
         <div class="date_picker">
             <el-date-picker  
@@ -48,15 +57,7 @@
             <el-table-column model-key="Voc"        label="Voc"        width="100"></el-table-column>
             <el-table-column model-key="Vbd"        label="Vbd"        width="100"></el-table-column>
         </el-table>
-        <div style="text-align: center">
-            <ul class="list" style="list-style:none">
-                <li>
-                    <span></span>
-                    <el-pagination id="page" [(model)]="page" (modelChange)="pageChange()" [(total)]="total" [(page-size)]="pageSize" [layout]="['prev', 'pager', 'next', 'jumper',  'total']">
-                    </el-pagination>
-                </li>
-            </ul>
-        </div>
+        
     </div>
 </div>
       

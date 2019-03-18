@@ -33,8 +33,8 @@ export class PrismComponent implements OnInit {
   tableData: any[] = [];
   //翻页参数
   total = 0;
-  pageSize = 0;
-  page = 0;
+  pageSize = 50;
+  page = 1;
   sTime = '';
   eTime='';
   //查询条件
@@ -73,9 +73,9 @@ export class PrismComponent implements OnInit {
     }
 
     let reqData = {
-      Draw: 1,
-      Start: 0,
-      Length: 50,
+      Draw: this.page,
+      Start: (this.page -1) * this.pageSize,
+      Length: this.pageSize,
       Order: [
         { Column: 0, Dir: 'desc'}, 
         { Column: 0, Dir: 'asc'}, 
@@ -88,7 +88,6 @@ export class PrismComponent implements OnInit {
       }
     };
 
-    console.log('reqData', reqData.Columns);
     return reqData;
   };
 
