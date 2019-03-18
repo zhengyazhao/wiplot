@@ -35,6 +35,7 @@ export class PrismComponent implements OnInit {
   pageSize = 10;
   page = 1;
   cTime = '';
+  eTime='';
 
   prepareRequestData(): any{
     let reqData = {

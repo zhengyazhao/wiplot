@@ -17,7 +17,7 @@ export class excelService {
    * @param sheetNames sheet名
    * @param obj  所提供的数据
    */
-    public exportAsExcelFile(excelFileName: string, headers: string[], sheetNames: string[], obj: any[]): void {
+    public exportAsExcelFile(excelFileName: string, headers: string[], sheetNames: string[], obj: any[],exceType:string): void {
         //excelFileName为必填字段，如果传入null会报异常，以下为判断。
         if (typeof excelFileName == "undefined" || excelFileName == null || excelFileName == "") {
             throw new Error("please input excelFileName name");
@@ -45,10 +45,10 @@ export class excelService {
         //使用XLSX.write方法写入
         const excelBuffer: any = XLSX.write(workbook, { bookType: 'xlsx', type: 'buffer' });
         //保存文件
-        this.saveAsExcelFile(excelBuffer, excelFileName);
+        this.saveAsExcelFile(excelBuffer, excelFileName,exceType);
 
     }
-    private saveAsExcelFile(buffer: any, fileName: string): void {
+    private saveAsExcelFile(buffer: any, fileName: string,exceType:string): void {
 
         const buf = new ArrayBuffer(buffer.length);
         const view = new Uint8Array(buf);
@@ -64,7 +64,7 @@ export class excelService {
         });
 
 
-        FileSaver.saveAs(data, fileName + "_" + utilities.getDate(4) + ".csv");
+        FileSaver.saveAs(data, fileName + "_" + utilities.getDate(4) + exceType);
     }
 
     //将数字转化为chart类型

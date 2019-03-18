@@ -15,14 +15,17 @@
         <label>IV Prism</label>
     </div>
     <div class="header">
+         
         <div class="date_picker">
-            <el-date-picker
-                type="daterange" 
-                [(model)]="cTime" 
-                range-separator="-"
-                start-placeholder="start date"
-                end-placeholder="end date">
-            </el-date-picker>
+                <div style="width:260px;float:left">
+                        <el-date-picker [(model)]="sTime" placeholder="请输入开始日期" [format]="'yyyy-MM-dd'">
+                        </el-date-picker>
+                        
+                    </div>
+                    <div style="width:300px;float:left">
+                        <el-date-picker [(model)]="eTime" placeholder="请输入结束日期" [format]="'yyyy-MM-dd'">
+                        </el-date-picker>
+                    </div>
         </div>
         <div class="operator">
             <el-button type="primary">Show 50 rows</el-button>

@@ -76,5 +76,8 @@ namespace AD.Svs.Web.SyncDB.DataServices.Models
         public  int? pageSize { get; set; }
 
         public  int? total { get; set; }
+
+        public string sTime { get; set; }
+        public  string eTime { get; set; }
     }
 }

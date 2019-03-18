@@ -31,12 +31,28 @@ export class CstComponent implements OnInit {
   total = 10;
   pageSize = 10;
   page = 1;
-  cTime = '';
+  sTime = '';
+  eTime = '';
 
+  //导出类型
+  exportType = ['.csv','.xls','.xlsx'];
+  exportStatus=false;
+  exportTtile="导出";
+  exportModel:string=this.exportType[0];
   //点击 搜索按钮
   onSearch(ref: any): void {
     this.pageInfo.total = 10;
     this.loadList();
+  }
+  /**
+   * 弹出导出页面，并且设定默认值
+   */
+  showExport()
+  {
+  
+    this.exportModel=this.exportType[0];
+    this.exportStatus=true;
+    
   }
   ///导出
   onExport() {
@@ -56,8 +72,10 @@ export class CstComponent implements OnInit {
       execlDates.push(this.CstExportModel);
 
     });
+ 
     try {
-      this.excelSercixe.exportAsExcelFile("卡夹列表", execlHead, null, execlDates);
+      this.exportStatus=false;
+      this.excelSercixe.exportAsExcelFile("卡夹列表", execlHead, null, execlDates,this.exportModel);
       this.notify.success('导出成功!');
     }
     catch (e) {
@@ -72,6 +90,7 @@ export class CstComponent implements OnInit {
   }
   //点击翻页
   pageChange(val: any): void {
+
 
     this.loadList();
 
@@ -90,8 +109,13 @@ export class CstComponent implements OnInit {
       pageSize: this.pageSize,
       page: this.page
     };
-    if (!utilities.strIsEmptyOrNull(this.cTime)) {
-      parms['ctime'] = this.cTime;
+    //开始日期
+    if (!utilities.strIsEmptyOrNull(this.sTime)) {
+      parms['stime'] = this.sTime;
+    }
+    ///结束日期
+    if (!utilities.strIsEmptyOrNull(this.eTime)) {
+      parms['etime'] = this.eTime;
     }
     return parms;
   }

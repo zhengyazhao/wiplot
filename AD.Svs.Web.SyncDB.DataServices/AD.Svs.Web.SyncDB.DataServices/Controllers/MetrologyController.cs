@@ -160,15 +160,17 @@ namespace AD.Svs.Web.SyncDB.DataServices.Controllers
 
                 Random r = new Random();
 
-                int page = model.page.GetValueOrDefault();
-                int size = model.pageSize.GetValueOrDefault();
+                int page = model.page.GetValueOrDefault();//前端传递过来的当前页信息
+                int size = model.pageSize.GetValueOrDefault();//前台传递过来的每页显示多少条
+                string sTime = model.sTime;
+                string eTime = model.eTime;
                 if (page <= 0)
                 {
                     page = 1;
-                }  
-                for ( int i= 0; i <= 9; i++)
+                }
+                for (int i = 0; i <= 9; i++)
                 {
-                  int s=  r.Next(1,100);
+                    int s = r.Next(1, 100);
                     UserModel userModel = new UserModel();
                     userModel.departmentSeq = s;
                     userModel.email = "邮箱:" + s;
@@ -177,16 +179,16 @@ namespace AD.Svs.Web.SyncDB.DataServices.Controllers
                     userModel.jobtitle = "职称:" + s;
                     userModel.language = "语言:" + s;
                     userModel.mobile = "用户i手机开头:" + s + "31";
-                    
+
                     userModel.pro = s;
                     userModel.remark = "测试fff";
                     userModelList.Add(userModel);
                 }
                 data.HttpCode = 200;
-               
-                int total = r.Next(20,100);
+
+                int total = r.Next(20, 100);
                 data.total = total;
-             
+
                 data.data = userModelList.ToArray();
             }
             catch (Exception ex)
