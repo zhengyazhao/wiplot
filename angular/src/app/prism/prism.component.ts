@@ -7,8 +7,8 @@ import { ConfigModel } from '../domain/configModel';
 import { ajaxOption, HttpAccessor } from '../lib/network/httpAccessor';
 import { excelService } from '../lib/common/excelservice';
 import { CstExportModel } from '../contract/exportEntity/cstModel';
+import { PrismExportModel } from '../contract/exportEntity/prismModel';
 import { ElNotificationService } from 'element-angular';
-import { utilities } from '../lib/common/utilities';
 
 @Component({
   selector: 'app-prism',
@@ -21,6 +21,7 @@ export class PrismComponent implements OnInit {
   private pageInfo: PaginationModel = new PaginationModel();
   private excelSercixe: excelService = new excelService();
   private CstExportModel: CstExportModel;
+  private PrismExportModel: PrismExportModel;
 
   constructor(private configModel: ConfigModel, private notify: ElNotificationService, private message: ElMessageService, private Router: Router) {
     this.loadList(false);
@@ -37,7 +38,11 @@ export class PrismComponent implements OnInit {
   page = 1;
   sTime = '';
   eTime='';
-  //查询条件
+  //导出参数
+  exportStatus=false;
+  exportType = ['.xlsx','.csv','.xls',];
+  exportTtile="Export";
+  exportModel:string=this.exportType[0];
 
   onDateSearch(){
     console.log('on date search method...');
@@ -119,5 +124,48 @@ export class PrismComponent implements OnInit {
 
   pageChange(val: any): void {
     this.loadList(false);
+  }
+
+  showExport()
+  {
+    this.exportModel=this.exportType[0];
+    this.exportStatus=true;
+  }
+
+  onExport() {
+    let execlHead = ['TestDate', 'Wafer', 'Step', 'Cell', 'Owner', 'Purpose', 'Flow', 'Bin', 'Eff_DATIME', 'Jsc_Active', 'Rs', 'Vp', 'Np', 'G_Rev', 'FF', 'Von', 'Voc','Vbd'];
+    let execlDates = [];
+    this.tableData.forEach((value, index) => {
+      this.PrismExportModel = new PrismExportModel();
+      this.PrismExportModel.TestDate = value.TestDate;
+      this.PrismExportModel.Wafer = value.Wafer;
+      this.PrismExportModel.Step = value.Step;
+      this.PrismExportModel.Cell = value.Cell;
+      this.PrismExportModel.Owner = value.Owner;
+      this.PrismExportModel.Purpose = value.Purpose;
+      this.PrismExportModel.Flow = value.Flow;
+      this.PrismExportModel.Bin = value.Bin;
+      this.PrismExportModel.Eff_DATIME = value.Eff_DATIME;
+      this.PrismExportModel.Jsc_Active = value.Jsc_Active;
+      this.PrismExportModel.Rs = value.Rs;
+      this.PrismExportModel.Vp = value.Vp;
+      this.PrismExportModel.Np = value.Np;
+      this.PrismExportModel.G_Rev = value.G_Rev;
+      this.PrismExportModel.FF = value.FF;
+      this.PrismExportModel.Von = value.Von;
+      this.PrismExportModel.Voc = value.Voc;
+      this.PrismExportModel.Vbd = value.Vbd;
+
+      execlDates.push(this.PrismExportModel);
+    });
+ 
+    try {
+      this.exportStatus=false;
+      this.excelSercixe.exportAsExcelFile("卡夹列表", execlHead, null, execlDates,this.exportModel);
+      this.notify.success('导出成功!');
+    }
+    catch (e) {
+      this.notify.error("导出失败!");
+    }
   }
 }
