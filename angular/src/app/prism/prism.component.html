@@ -2,15 +2,6 @@
     <div>
         <label>IV Prism</label>
     </div>
-    <div style="text-align: right">
-            <ul class="list" style="list-style:none">
-                <li>
-                    <span></span>
-                    <el-pagination id="page" [(model)]="page" (modelChange)="pageChange()" [(total)]="total" [(page-size)]="pageSize" [layout]="['prev', 'pager', 'next', 'jumper',  'total']">
-                    </el-pagination>
-                </li>
-            </ul>
-        </div>
     <div>
         <div class="date_picker">
             <el-date-picker  
@@ -28,9 +19,9 @@
             </el-date-picker>
         </div>
         <div class="operator">
-            <el-button type="primary">Copy</el-button>
-            <el-button (click)="showExport()" type="primary">{{exportTtile}}</el-button>
-            <!--弹出导出窗体-->
+            <!-- <el-button type="primary">Copy</el-button> -->
+            
+            <!-- <el-button (click)="showExport()" type="primary">{{exportTtile}}</el-button>
             <el-dialog [title]="exportTtile" width="300px" [(visible)]="exportStatus">
                 <div style="  text-align:center">
                     <div style="height:30px;">
@@ -41,10 +32,12 @@
                         <el-button type="primary" (click)='onExport()'>确认</el-button>
                     </div>
                 </div>
-            </el-dialog>
-            <!--导出窗体结束-->
-            <el-button type="primary">Print</el-button>
-            <el-button (click)="onSearch()" type="primary">Reset</el-button>
+            </el-dialog> -->
+            <el-button type="primary">Show 50 rows</el-button>
+            <el-button type="primary" (click)='onExcelExport()'>EXCEL</el-button>
+            <el-button type="primary" (click)='onCsvExport()'>CSV</el-button>
+            <!-- <el-button type="primary">Print</el-button> -->
+            <!-- <el-button (click)="onSearch()" type="primary">Reset</el-button> -->
         </div>
     </div>
     <div class="template" [el-loading]="loadStatus" [text]="'Loading...'">
@@ -68,7 +61,14 @@
             <el-table-column model-key="Voc"        label="Voc"        width="100"></el-table-column>
             <el-table-column model-key="Vbd"        label="Vbd"        width="100"></el-table-column>
         </el-table>
-        
+        <div style="text-align: right">
+            <ul class="list" style="list-style:none">
+                <li>
+                    <el-pagination id="page" [(model)]="page" (modelChange)="pageChange()" [(total)]="total" [(page-size)]="pageSize" [layout]="['prev', 'pager', 'next', 'jumper', 'size', 'total']">
+                    </el-pagination>
+                </li>
+            </ul>
+        </div>
     </div>
 </div>
       
