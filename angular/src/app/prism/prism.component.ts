@@ -6,6 +6,8 @@ import { ajaxOption, HttpAccessor } from '../lib/network/httpAccessor';
 import { excelService } from '../lib/common/excelservice';
 import { PrismExportModel } from '../contract/exportEntity/prismModel';
 
+import { CsvFileTypes, IgxCsvExporterOptions, IgxCsvExporterService } from "igniteui-angular";
+
 @Component({
   selector: 'app-prism',
   templateUrl: './prism.component.html',
@@ -124,7 +126,7 @@ export class PrismComponent implements OnInit {
     this.exportStatus=true;
   }
 
-  onExport() {
+  onExcelExport() {
     let execlHead = ['TestDate', 'Wafer', 'Step', 'Cell', 'Owner', 'Purpose', 'Flow', 'Bin', 'Eff_DATIME', 'Jsc_Active', 'Rs', 'Vp', 'Np', 'G_Rev', 'FF', 'Von', 'Voc','Vbd'];
     let execlDates = [];
     this.tableData.forEach((value, index) => {

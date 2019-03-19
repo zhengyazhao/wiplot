@@ -2,16 +2,12 @@ import { Injectable } from '@angular/core';
 import * as FileSaver from 'file-saver';//浏览器读取本地的文件已经保存文件所需要的依赖。
 import * as XLSX from 'xlsx';//数据导出导入所需要的依赖
 import {utilities} from './utilities';
+
 @Injectable()
 export class excelService {
-
-    constructor() {
-
-    }
-
+    constructor() {}
 
     /**
-   *
    * @param excelFileName 文件名
    * @param headers 是否传入文件头，如果传空默认为变量名
    * @param sheetNames sheet名
@@ -41,7 +37,6 @@ export class excelService {
 
         workbook.Sheets[workbook.SheetNames[0]] = tempSheet;
 
-
         //使用XLSX.write方法写入
         const excelBuffer: any = XLSX.write(workbook, { bookType: 'xlsx', type: 'buffer' });
         //保存文件
@@ -53,16 +48,13 @@ export class excelService {
         const buf = new ArrayBuffer(buffer.length);
         const view = new Uint8Array(buf);
 
-
         for (let i = 0; i !== buffer.length; ++i) {
             view[i] = buffer.charCodeAt(i) & 0xFF;
         };
 
-
         const data: Blob = new Blob([buf], {
             type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;charset=utf-8'
         });
-
 
         FileSaver.saveAs(data, fileName + "_" + utilities.getDate(4) + exceType);
     }
@@ -71,7 +63,5 @@ export class excelService {
     private numberToChart(i: number): string {
         return String.fromCharCode(65 + i);
     }
-
-
 }
 
