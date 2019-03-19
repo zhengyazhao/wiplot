@@ -18,6 +18,14 @@
                 (modelChange)="onDateSearch()">
             </el-date-picker>
         </div>
+        <div class="search">
+            <el-input
+                icon="search"
+                [(model)]="wafer" 
+                placeholder="Wafer"
+                (blur)="onWaferSearch()">
+            </el-input>
+        </div>
         <div class="operator">
             <el-button type="primary">Show 50 rows</el-button>
             <el-button type="primary" (click)='onExcelExport()'>EXCEL</el-button>

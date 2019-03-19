@@ -19,7 +19,7 @@ export class PrismComponent implements OnInit {
   private PrismExportModel: PrismExportModel;
 
   constructor(private configModel: ConfigModel, private message: ElMessageService, private notify: ElNotificationService) {
-    this.loadList(false);
+    this.loadList(false, false);
   }
 
   ngOnInit() {}
@@ -32,7 +32,8 @@ export class PrismComponent implements OnInit {
   pageSize = 50;
   page = 1;
   sTime = '';
-  eTime='';
+  eTime = '';
+  wafer = '';
   //导出参数
   exportStatus=false;
   exportType = ['.xlsx','.csv','.xls',];
@@ -40,10 +41,18 @@ export class PrismComponent implements OnInit {
   exportModel:string=this.exportType[0];
 
   onDateSearch(){
-    this.loadList(true);
+    if(this.sTime){
+      this.loadList(true, false);
+    }
   }
 
-  prepareRequestData(needDateSearch: boolean): any{
+  onWaferSearch(){
+    if(this.wafer) {
+      this.loadList(false, true);
+    }
+  }
+
+  prepareRequestData(needDateSearch: boolean, needWaferSearch: boolean): any{
     var columnsData = [
       { "data": "TestDate", "Searchable": false, "Search": {"Regex":false, "Value":{}}},
       { "data": "Wafer","Searchable": false, "search": {"regex":false, "value":{}}},
@@ -71,6 +80,12 @@ export class PrismComponent implements OnInit {
       };
     }
 
+    if(needWaferSearch) {
+      columnsData[1] = {
+        "data": "Wafer", "searchable": true, "search":{"regex":false, "value":`${this.wafer}`}
+      };
+    }
+
     let reqData = {
       Draw: this.page,
       Start: (this.page -1) * this.pageSize,
@@ -90,12 +105,12 @@ export class PrismComponent implements OnInit {
     return reqData;
   };
 
-  loadList(needDateSearch: boolean) {
+  loadList(needDateSearch: boolean, needWaferSearch: boolean) {
     this.loadStatus = true;
-    
+
     let option: ajaxOption = {
       url: this.configModel.serviceUrl + 'api/Metrology/PrismData',
-      data: this.prepareRequestData(needDateSearch),
+      data: this.prepareRequestData(needDateSearch, needWaferSearch),
       type: "post",
     };
 
@@ -116,8 +131,8 @@ export class PrismComponent implements OnInit {
     });
   }
 
-  pageChange(val: any): void {
-    this.loadList(false);
+  pageChange(needDateSearch: boolean, needWaferSearch: boolean): void {
+    this.loadList(needDateSearch, needWaferSearch);
   }
 
   showExport()
