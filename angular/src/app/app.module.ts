@@ -10,6 +10,7 @@ import { MainComponent } from './main/main.component';
 import { CstComponent } from './cst/cst.component';
 import { LoginComponent } from './login/login.component';
 import { PrismComponent } from './prism/prism.component';
+import{AnalysisComponent} from './components/Analysis/Analysis.component';
 
 //实体类ts文件引用
 
@@ -29,7 +30,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     LoginComponent,
     MainComponent,
     CstComponent,
-    PrismComponent
+    PrismComponent,
+    AnalysisComponent
     
   ],
   //导入引用

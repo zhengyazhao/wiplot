@@ -31,8 +31,10 @@ export class CstComponent implements OnInit {
   total = 10;
   pageSize = 10;
   page = 1;
+  pageSizeTest=10;
   sTime = '';
   eTime = '';
+  pagesizes=[10,20,30,40];
 
   //导出类型
   exportType = ['.csv','.xls','.xlsx'];
@@ -95,6 +97,10 @@ export class CstComponent implements OnInit {
     this.loadList();
 
   }
+
+  sizeChange(val:any):void{
+    this.message.show(val);
+  }
   //点击删除按钮
   onDel(val: any): void {
 
@@ -104,10 +110,12 @@ export class CstComponent implements OnInit {
 
   //查询条件
   loadParms(): any {
+    
     let parms = {
       total: this.total,
       pageSize: this.pageSize,
-      page: this.page
+      page: this.page,
+      pageSizeTest:this.pageSizeTest
     };
     //开始日期
     if (!utilities.strIsEmptyOrNull(this.sTime)) {

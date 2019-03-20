@@ -27,7 +27,7 @@ export class MainComponent implements OnInit {
     { index: 2, title: "工厂信息", linkUrl: '', pIndex: 2 },
     { index: 3, title: "卡夹基础信息", linkUrl: './cst', pIndex: 3 },
     { index: 4, title: "IV_Prism", linkUrl: './prism', pIndex: 4 },
-    { index: 5, title: "一般过账", linkUrl: '', pIndex: 5 },
+    { index: 5, title: "Analysis", linkUrl: './analysis', pIndex: 5 },
     { index: 6, title: "HOLD", linkUrl: '', pIndex: 6 },
     { index: 7, title: "看板", linkUrl: '', pIndex: 7},
   ];

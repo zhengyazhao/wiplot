@@ -1,0 +1,54 @@
+<table>
+    <tr class="table-head">
+    
+        <th width="70">序号</th>
+        <th>用户名</th>
+        <th>姓名</th>
+        <th>所属角色</th>
+        <th>所属机构</th>
+        <th>操作</th>
+    </tr>
+</table>
+
+
+<div class="containerDiv">
+        <table *ngIf="userList.length==0">
+          <tr>
+            无数据
+          </tr>
+        </table>
+        <table *ngIf="userList.length>0">
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+          <tr *ngFor="let user of userList">
+            <td width="50">
+              <span class="checkbox">
+                <input class="check" type="checkbox" id="{{user.userId}}" [(ngModel)]="user.isSelect" (change)="checkOne(user.isSelect)"
+                />
+                <label for="{{user.userId}}" class="check-label"></label>
+              </span>
+              <!-- <input type="checkbox" [(ngModel)]="user.isSelect" (change)="checkOne(user.isSelect)" /> -->
+            </td>
+            <td width="70">1</td>
+            <td>{{user.account}}</td>
+            <td>{{user.realName}}</td>
+            <td>
+              <span *ngIf="user.roleName!=''">{{user.roleName}}</span>
+              <span *ngIf="user.roleName==''">无</span>
+            </td>
+            <td>{{user.organizationName}}</td>
+            <td>
+              <span class="btn" (click)="openDialog(user.userId)">修改</span>
+              <span>|</span>
+              <span class="btn" (click)="deleteUser(user)">删除</span>
+            </td>
+          </tr>
+
+        </table>
+      </div>

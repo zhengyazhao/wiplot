@@ -5,6 +5,7 @@ import { MainComponent } from './main.component';
 import { CstComponent } from '../cst/cst.component';
 import { PrismComponent } from '../prism/prism.component';
 
+import{AnalysisComponent}from '../components/Analysis/Analysis.component';
 export const homeRoutes = [
   {
     path:'',
@@ -17,6 +18,12 @@ export const homeRoutes = [
       {
         path:'prism',
         component:PrismComponent
+      }
+      ,
+      
+      {
+        path:'analysis',
+        component:AnalysisComponent
       }
     ]
   }

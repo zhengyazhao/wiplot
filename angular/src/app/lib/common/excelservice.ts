@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import * as FileSaver from 'file-saver';//浏览器读取本地的文件已经保存文件所需要的依赖。
 import * as XLSX from 'xlsx';//数据导出导入所需要的依赖
+
 import {utilities} from './utilities';
 
 @Injectable()
@@ -22,6 +23,7 @@ export class excelService {
         if (obj == null || obj.length == 0) {
             throw new Error("no datas show");
         }
+        
         //WorkBook对象为主要对象，对象中的SheetNames表示传入的sheet名称。Sheets所对应的数据。两者一一对应。
         const workbook: XLSX.WorkBook = { SheetNames: [], Sheets: {} };
         //添加一个sheet页
