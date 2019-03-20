@@ -35,8 +35,8 @@
     </div>
     <div style=" width:1850px">
 
-        <el-table [model]="tableData" [stripe]="true" [border]="true">
-                
+        <el-table [model]="tableData" [stripe]="true"  center="header" [border]="true">
+
             <el-table-column model-key="UserName" label="姓名">
             </el-table-column>
             <el-table-column model-key="gender" label="性别">
@@ -78,12 +78,12 @@
             <ul class="list" style="list-style:none  ">
 
                 <li style="height:50px;text-align: center ">
-                   
+
                     <el-pagination id="page" [(model)]="page" (modelChange)="pageChange()" [(total)]="total"
-                        [(page-size)]="pageSizeTest"  [page-sizes]="pagesizes"
+                        [(page-size)]="pageSizeTest" [page-sizes]="pagesizes"
                         [layout]="['prev','pager','size', 'next', 'jumper',  'total']">
                     </el-pagination>
-               
+
                 </li>
             </ul>
 

@@ -98,9 +98,6 @@ export class CstComponent implements OnInit {
 
   }
 
-  sizeChange(val:any):void{
-    this.message.show(val);
-  }
   //点击删除按钮
   onDel(val: any): void {
 

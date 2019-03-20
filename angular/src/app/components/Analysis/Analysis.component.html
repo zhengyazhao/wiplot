@@ -1,54 +1,108 @@
-<table>
-    <tr class="table-head">
-    
-        <th width="70">序号</th>
-        <th>用户名</th>
-        <th>姓名</th>
-        <th>所属角色</th>
-        <th>所属机构</th>
-        <th>操作</th>
-    </tr>
-</table>
+<div class="listBox position">
+    <div style="width:100%;height:50px;">
+        <div style="width:600px; float:left">
+            <div style="width:260px;float:left">
+                <el-date-picker [(model)]="sTime" placeholder="请输入开始日期" [format]="'yyyy-MM-dd'">
+                </el-date-picker>
+            </div>
+            <div style="width:300px;float:left">
+                <el-date-picker [(model)]="eTime" placeholder="请输入结束日期" [format]="'yyyy-MM-dd'">
+                </el-date-picker>
+            </div>
 
 
-<div class="containerDiv">
-        <table *ngIf="userList.length==0">
-          <tr>
-            无数据
-          </tr>
-        </table>
-        <table *ngIf="userList.length>0">
-            <tr>
-                <td><input type="text"></td>
-                <td><input type="text"></td>
-                <td><input type="text"></td>
-                <td><input type="text"></td>
-                <td><input type="text"></td>
-                <td><input type="text"></td>
-            </tr>
-          <tr *ngFor="let user of userList">
-            <td width="50">
-              <span class="checkbox">
-                <input class="check" type="checkbox" id="{{user.userId}}" [(ngModel)]="user.isSelect" (change)="checkOne(user.isSelect)"
-                />
-                <label for="{{user.userId}}" class="check-label"></label>
-              </span>
-              <!-- <input type="checkbox" [(ngModel)]="user.isSelect" (change)="checkOne(user.isSelect)" /> -->
-            </td>
-            <td width="70">1</td>
-            <td>{{user.account}}</td>
-            <td>{{user.realName}}</td>
-            <td>
-              <span *ngIf="user.roleName!=''">{{user.roleName}}</span>
-              <span *ngIf="user.roleName==''">无</span>
-            </td>
-            <td>{{user.organizationName}}</td>
-            <td>
-              <span class="btn" (click)="openDialog(user.userId)">修改</span>
-              <span>|</span>
-              <span class="btn" (click)="deleteUser(user)">删除</span>
-            </td>
-          </tr>
+        </div>
+        <div style="width:200px;float:right; ">
+          
+            <el-button (click)="showExport()" type="primary">{{exportTtile}}</el-button>
+            <!--弹出导出窗体-->
+            <el-dialog [title]="exportTtile" width="300px" [(visible)]="exportStatus">
+                <div style="  text-align:center">
+                    <div style="height:30px;">
+                        <el-radio class="radio" *ngFor='let item of exportType' [(model)]="exportModel"
+                            label="{{item}}">{{item}}</el-radio>
+                    </div>
+                    <div style="height:30pxl;margin-top:20px">
+                        <el-button type="primary" (click)='onExport()'>确认</el-button>
+                    </div>
+                </div>
+            </el-dialog>
+            <!--导出窗体结束-->
+            <el-button type="primary" style="margin-left:30px" (click)="onSearch()" [(loading)]="successStatus" icon="search">搜索</el-button>
+            <el-button type="primary" icon="el-icon-document">复制</el-button>
+        </div>
+    </div>
+    <table>
+        <tr class="table-head">
 
-        </table>
-      </div>
+            <th style="width:70px">序号</th>
+            <th>姓名</th>
+            <th>性别</th>
+            <th>邮箱</th>
+            <th>电话</th>
+
+            <th>时间</th>
+        </tr>
+    </table>
+
+    <div class="tableContent">
+        <div class="containerDiv">
+            <table *ngIf="tableData.length==0">
+                <tr>
+                    无数据
+                </tr>
+            </table>
+            <table *ngIf="tableData.length>0">
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        <el-input [(model)]="searchUser" placeholder="请输入用户名" *ngIf="true" style="width:30px">
+                        </el-input>
+                    </td>
+                    <td>
+                        <el-input [(model)]="searchSex" placeholder="请输入性别" *ngIf="true" style="width:30px">
+                        </el-input>
+                    </td>
+                    <td>
+                        <el-input [(model)]="searchMail" placeholder="请输入邮箱" *ngIf="true" style="width:30px">
+                        </el-input>
+                    </td>
+                    <td>
+                        <el-input [(model)]="searchPhone" placeholder="请输入电话" *ngIf="true" style="width:30px">
+                        </el-input>
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                <tr *ngFor="let item of tableData">
+                    <td style="width:70px">{{item.id}}</td>
+                    <td style="width:270px">{{item.name}}</td>
+                    <td style="width:270px">{{item.sex}}</td>
+                    <td style="width:270px">{{item.mail}}</td>
+                    <td style="width:270px">{{item.phone}}</td>
+
+                    <td style="width:270px">{{item.date}}</td>
+                </tr>
+
+            </table>
+        </div>
+        <div style="  text-align: center ">
+
+            <ul class="list" style="list-style:none  ">
+
+                <li style="height:50px;text-align: center ">
+
+                    <el-pagination id="page" [(model)]="page" (modelChange)="pageChange()" [(total)]="total"
+                        [(page-size)]="pageSizeTest" [page-sizes]="pagesizes"
+                        [layout]="['prev','pager', 'next', 'jumper',  'total']">
+                    </el-pagination>
+
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>

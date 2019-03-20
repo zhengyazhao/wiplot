@@ -1,0 +1,70 @@
+@import '../../../assets/css/common';
+table {
+    text-align: center;
+    border-collapse: collapse;
+    table-layout: fixed;
+   
+    tr {
+      
+        height: 46px;
+        line-height: 46px;
+      
+       
+    }
+    td{
+        white-space: nowrap;
+        border: 1px solid black;
+    }
+    .table-head {
+        // background-color: $commonBlue;
+        th {
+            border: 1px solid black;
+            font-weight: 400;
+        }
+    }
+    .btn {
+        cursor: pointer;
+    }
+}
+
+.tableContent {
+    tr:nth-child(odd) {
+        background-color: $listBlue1;
+    }
+    tr:nth-child(even) {
+        background-color: $listBlue2;
+    }
+}
+
+.formTitleBox {
+    padding: 10px;
+    background-color: #ffffff;
+    .searchInput {
+        width: 200px;
+    }
+    button {
+        margin-left: 20px;
+    }
+}
+
+.listBox {
+    top: 50px;
+    bottom: 60px;
+    padding: 10px 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    .tableContent {
+        flex: 1;
+        overflow: hidden;
+    }
+}
+.containerDiv{
+text-align: center
+
+}
+.pageBox {
+    top: auto;
+    height: 60px;
+    background-color: #ffffff;
+}
