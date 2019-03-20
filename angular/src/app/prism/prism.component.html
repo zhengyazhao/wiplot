@@ -27,8 +27,13 @@
             </el-input>
         </div>
         <div class="operator">
-            <el-button type="primary">Show 50 rows</el-button>
-            <el-button type="primary" (click)='onExcelExport()'>EXCEL</el-button>
+            <el-select [(model)]="pageSize" placeholder="Show 50 rows" (modelChange)="handle($event)">
+                    <el-option *ngFor="let item of sizeOptions"
+                      [label]="item.label"
+                      [value]="item.value">
+                    </el-option>
+                  </el-select>
+            <el-button type="button" (click)='onExcelExport()'>EXCEL</el-button>
         </div>
     </div>
     <div class="template" [el-loading]="loadStatus" [text]="'Loading...'">

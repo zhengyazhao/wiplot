@@ -27,9 +27,28 @@ export class PrismComponent implements OnInit {
   ///表格加载状态
   loadStatus = false;
   tableData: any[] = [];
+  sizeOptions = [
+    {
+      label : "Show 100 rows",
+      value : 100
+    },
+    {
+      label : "Show 50 rows",
+      value : 50
+    },
+    {
+      label : "Show 20 rows",
+      value : 20
+    },
+    {
+      label : "Show 10 rows",
+      value : 10
+    }
+  ];
   //翻页参数
   total = 0;
-  pageSize = 50;
+  pageSize1 = this.sizeOptions[1];
+  pageSize = this.pageSize1.value;
   page = 1;
   sTime = '';
   eTime = '';
@@ -118,8 +137,6 @@ export class PrismComponent implements OnInit {
       next: (val) => {
         this.total = val.recordsTotal;
         this.tableData = val.data;
-
-        this.pageSize = 50;
       },
       error: (err) => {
         this.loadStatus = false;
@@ -132,6 +149,11 @@ export class PrismComponent implements OnInit {
   }
 
   pageChange(needDateSearch: boolean, needWaferSearch: boolean): void {
+    this.loadList(needDateSearch, needWaferSearch);
+  }
+
+  handle(event: any, needDateSearch: boolean, needWaferSearch: boolean):void {
+    this.pageSize = event;
     this.loadList(needDateSearch, needWaferSearch);
   }
 
