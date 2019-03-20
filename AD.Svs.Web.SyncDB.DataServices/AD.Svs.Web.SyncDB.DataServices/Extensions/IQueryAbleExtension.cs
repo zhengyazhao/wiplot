@@ -100,9 +100,15 @@ namespace AD.Svs.Web.SyncDB.DataServices.Extensions
                                 MemberExpression me = Expression.Property(pe, propertyName);
                                 var ce = Expression.Convert(me, typeof(DateTime?));
                                 MethodCallExpression mc = Expression.Call(null, typeof(System.Data.Entity.DbFunctions).GetMethod("TruncateTime", new Type[] { typeof(DateTime?) }), ce);
-                                ConstantExpression constant = Expression.Constant(DateTime.Parse(column.Search.Value).Date, typeof(DateTime?));
-                                BinaryExpression be = Expression.Equal(mc, constant);
-                                filterExpression = Expression.AndAlso(filterExpression, be);
+
+                                var searchValues = column.Search.Value.Split('-');
+                                var startTimeConstant = Expression.Constant(DateTime.Parse(searchValues[0]).Date, typeof(DateTime?));
+                                var endTimeConstant = Expression.Constant(DateTime.Parse(searchValues[1]).Date, typeof(DateTime?));
+
+                                BinaryExpression beOfStartTime = Expression.GreaterThanOrEqual(mc, startTimeConstant);
+                                BinaryExpression beOfEndTime = Expression.LessThanOrEqual(mc, endTimeConstant);
+                                filterExpression = Expression.AndAlso(filterExpression, beOfStartTime);
+                                filterExpression = Expression.AndAlso(filterExpression, beOfEndTime);
                                 break;
                             }
                         default:
